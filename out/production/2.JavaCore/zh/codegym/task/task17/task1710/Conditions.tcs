@@ -1,0 +1,34 @@
+taskKey="zh.codegym.task.task17.task1710"\n\nCRUD
+
+CrUD：创建、更新、删除。
+程序使用以下参数集之一运行：
+-c 姓名 性别 生日
+-u id 姓名 性别 生日
+-d id
+-i id
+参数值：
+姓名 (String)
+性别（“m”或“f”)
+生日（生日采用以下格式：“04 15 1990”）
+-c（将具有指定参数的人员添加到 allPeople 的末尾；在屏幕上显示 id）
+-u（更新具有指定 id 的人员数据）
+-d（对具有指定 id 的人员执行逻辑删除；将其所有数据替换为 null）
+-i（显示具有指定 id 的人员的信息：姓名 性别 (m/f) 生日 (格式 Apr 15 1990)）
+id 与列表中的索引相对应。
+所有人员都应存储在 allPeople 中。
+使用 Locale.ENGLISH 作为 SimpleDateFormat 的第二个参数。
+示例参数：
+-c Washington m "04 15 1990"
+-i 参数的示例输出：
+Washington m Apr 15 1990
+
+
+Requirements:
+1.	Solution 类必须包含名为 allPeople 的 public static List&lt;Person&gt; 字段。
+2.	Solution 类必须包含将两个人员添加到 allPeople 的 static 块。
+3.	在你使用 -c 参数启动程序时，程序应将带指定参数的人员添加到 allPeople 列表的末尾并显示 id (index)。
+4.	当你运行带 -u 参数的程序时，程序必须在 allPeople 列表中更新具有指定 id 的人员的数据。
+5.	在使用 -d 参数运行程序时，程序必须在 allPeople 列表中对具有指定 id 的人员执行逻辑删除。
+6.	当你运行带 -i 参数的程序时，程序应按照任务中给定的格式显示具有指定 id 的人员的有关数据。
+
+

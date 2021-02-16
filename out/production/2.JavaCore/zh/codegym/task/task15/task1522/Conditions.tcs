@@ -1,0 +1,33 @@
+taskKey="zh.codegym.task.task15.task1522"\n\n巩固单例模式
+
+1.查找用于延迟初始化的单例模式。使用个人喜好的搜索引擎（例如 Google）。
+2.在单独的文件中，创建三个相似的单例类：Sun、Moon 和 Earth。
+3.在 Sun、Moon 和 Earth 类中实现 Planet 接口。
+4.在 Solution 类的 static 块中，调用 readKeyFromConsoleAndInitPlanet 方法。
+5.实现 readKeyFromConsoleAndInitPlanet 方法：
+5.1.从控制台读取一个 String。
+5.2.如果值等于 Planet 接口的 constants，则创建一个相应的对象并将其分配给 Planet thePlanet，否则应将 Planet thePlanet 设为 null。
+
+
+Requirements:
+1.	Sun 类应防止在类外部创建 Sun 对象。
+2.	Sun 类必须包含 private static Sun 字段 instance。
+3.	Sun 类必须实现 public static getInstance 方法，该方法返回字段 instance 的值。
+4.	Sun 类的 getInstance 方法必须始终返回相同对象。
+5.	字段 instance 必须在首次调用 getInstance 方法之后初始化，但不能在此之前初始化。
+6.	Moon 类应防止在类外部创建 Moon 对象。
+7.	Moon 类必须包含 private static Moon 字段 instance。
+8.	Moon 类必须实现 public static getInstance 方法，该方法返回字段 instance 的值。
+9.	Moon 类的 getInstance 方法必须始终返回相同对象。
+10.	字段 instance 必须在首次调用 getInstance 方法之后初始化，但不能在此之前初始化。
+11.	Earth 类应防止在类外部创建 Earth 对象。
+12.	Earth 类必须包含 private static Earth 字段 instance。
+13.	Earth 类必须实现 public static getInstance 方法，该方法返回字段 instance 的值。
+14.	Earth 类的 getInstance 方法必须始终返回相同对象。
+15.	字段 instance 必须在首次调用 getInstance 方法之后初始化，但不能在此之前初始化。
+16.	readKeyFromConsoleAndInitPlanet 方法必须在 Solution 类的 static 块中调用。
+17.	readKeyFromConsoleAndInitPlane 方法应从键盘读取一行。
+18.	readKeyFromConsoleAndInitPlanet 方法必须根据任务条件正确更新变量 thePlanet 的值。
+19.	Sun、Moon 和 Earth 类都必须位于单独的文件中。
+
+

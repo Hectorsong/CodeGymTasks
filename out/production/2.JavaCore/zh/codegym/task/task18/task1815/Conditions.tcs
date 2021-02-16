@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task18.task1815"\n\n表
+
+更改 TableInterfaceWrapper 类，让它包装 TableInterface。
+在更新模型之前，setModel 方法应显示新列表中的元素数量。
+getHeaderText 方法应返回大写文本。使用 toUpperCase() 方法。
+
+
+Requirements:
+1.	TableInterfaceWrapper 类必须实现 TableInterface 接口。
+2.	TableInterfaceWrapper 类必须初始化构造方法中的 TableInterface 字段。
+3.	在更新模型之前，setModel() 方法应显示新列表中的元素数量。
+4.	getHeaderText() 方法必须返回大写文本。
+5.	setHeaderText() 方法必须设置标题文本而不进行更改。
+
+

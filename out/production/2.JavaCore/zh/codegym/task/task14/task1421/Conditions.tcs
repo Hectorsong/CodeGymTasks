@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task14.task1421"\n\n单例
+
+如果某个类只允许创建其类型的一个对象，则为单例。
+实现单例模式：
+1.在单独的文件中创建 Singleton 类。
+2.在类中添加 static getInstance() 方法。
+3.随时调用 getInstance 方法，getInstance 方法必须返回相同的 Singleton 对象。
+4.考虑如何防止创建此类的其他实例。
+5.让 Singleton 类的所有构造方法设为 private。
+6.因此，它应只能使用 getInstance 方法创建一个对象（该类的实例）。
+
+
+Requirements:
+1.	Singleton 类必须位于单独的文件中。
+2.	Singleton 类应防止在类外部创建 Singleton 对象。
+3.	Singleton 类必须包含 private static Singleton 字段 instance。
+4.	Singleton 类必须实现 public static getInstance 方法，该方法返回字段 instance 的值。
+5.	getInstance 方法必须始终返回相同对象。
+
+

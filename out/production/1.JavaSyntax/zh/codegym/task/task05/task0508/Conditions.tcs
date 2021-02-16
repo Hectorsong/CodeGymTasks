@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task05.task0508"\n\nPerson 类的 getter 和 setter
+
+创建 Person 类。Person 类应包含 String 变量 name、int 变量 age 和 char 变量 sex。
+为 Person 类的所有变量创建 getter 和 setter。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	Person 类必须包含一个 public static void main 方法。
+3.	Person 类应包含 3 个变量。
+4.	Person 类必须包含 String 变量 name。
+5.	Person 类必须包含 int 变量 age。
+6.	Person 类必须包含 char 变量 sex。
+7.	该类必须包含变量 name 的 setter。
+8.	该类必须包含变量 name 的 getter。
+9.	该类必须包含变量 age 的 setter。
+10.	该类必须包含变量 age 的 getter。
+11.	该类必须包含变量 sex 的 setter。
+12.	该类必须包含变量 sex 的 getter。
+
+

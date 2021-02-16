@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task17.task1720"\n\nATM
+
+弄明白程序是如何工作的。
+在测试期间，发现日志包含下列内容：
+.....
+存款 100，帐户余额 1100
+存款 100，帐户余额 1200
+支取 1000，帐户余额 100
+金额不足
+.....
+这是一个错误：
+借记账户时，金额会损失。
+请找到并修复该错误。
+
+
+Requirements:
+1.	BankAccount 类必须包含名为 balance 的 private BigDecimal 字段。
+2.	BankAccount 类的 deposit(String money) 方法必须将行为委派给 deposit(BigDecimal money) 方法。
+3.	BankAccount 类的 withdraw(String money) 方法必须将行为委派给 withdraw(BigDecimal money) 方法。
+4.	在 withdraw(BigDecimal money) 方法中使用 synchronized（如果需要）。
+5.	在 deposit(BigDecimal money) 方法中使用 synchronized（如果需要）。
+
+

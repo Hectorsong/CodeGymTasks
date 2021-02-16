@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task16.task1614"\n\n倒数
+
+1.弄明白程序的功能。
+2.实现 printCountdown 方法中的逻辑，以便每半秒程序显示一次变量 list 中的对象。输出应反向进行：从传递到 Countdown 的索引倒数到零。
+示例：
+传递索引 3
+控制台输出示例：
+行 2
+行 1
+行 0
+
+
+Requirements:
+1.	printCountdown 方法应运行约半秒。
+2.	printCountdown 方法应减少（递减）变量 countFrom 的值
+3.	printCountdown 方法必须显示索引等于 countFrom 的新值的列表项。
+4.	main 方法必须创建 Countdown 对象。
+5.	程序输出必须与任务条件中的示例匹配。
+
+

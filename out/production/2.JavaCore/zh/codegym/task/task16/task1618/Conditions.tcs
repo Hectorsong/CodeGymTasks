@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task16.task1618"\n\n另一个中断
+
+创建 TestThread。
+在 main 方法中，创建一个线程，运行该线程，然后使用 interrupt() 方法将其中断。
+
+
+Requirements:
+1.	TestThread 类应继承 Thread 类。
+2.	TestThread 类必须包含 public void run 方法。
+3.	main 方法必须创建 TestThread 对象。
+4.	main 方法必须在 TestThread 对象上调用 start 方法。
+5.	main 方法必须在 TestThread 对象上调用 interrupt 方法。
+
+

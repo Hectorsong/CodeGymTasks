@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task17.task1703"\n\n同步的注释
+
+1.Note 类将由线程使用。因此确保访问 notes 列表的尝试锁定 notes，而不是 this
+2.对 System.out.println 的调用不得为 synchronized，即不得位于 synchronized 块中。
+
+
+Requirements:
+1.	addNote() 方法应将注释添加到 notes 列表。
+2.	removeNote() 方法必须从 notes 列表中删除注释。
+3.	addNote() 方法必须有一个 synchronized 块。
+4.	removeNote() 方法必须有一个 synchronized 块。
+5.	addNote() 方法中的 synchronized 块必须锁定 notes。
+6.	removeNote() 方法中的 synchronized 块必须锁定 notes。
+7.	addNote() 方法的 synchronized 块必须调用 notes 中的 add 方法。
+8.	removeNote() 方法的 synchronized 块必须调用 notes 中的 remove 方法。
+9.	synchronized 块中不应有屏幕输出命令。
+
+

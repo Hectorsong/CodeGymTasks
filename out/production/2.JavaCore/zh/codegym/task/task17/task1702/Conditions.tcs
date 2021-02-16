@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task17.task1702"\n\n携手前进，速度更快？我们会明白 :)
+
+1.了解我们处理什么以及它的工作原理。
+2.创建 public static SortThread 类，其 run 方法使用 sort 方法来对 static 数组 testArray 排序。
+
+
+Requirements:
+1.	Solution 类必须包含 public static SortThread 类。
+2.	SortThread 类必须是线程。
+3.	SortThread 类的 run 方法必须调用 sort() 方法，将 testArray 作为参数传递。
+4.	程序应在屏幕上显示文本。
+
+

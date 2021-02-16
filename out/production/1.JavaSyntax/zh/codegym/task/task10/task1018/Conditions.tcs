@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task10.task1018"\n\n需要更正
+
+任务：该程序演示了 HashMap 的工作原理：从键盘读取一组对（数字和字符串），将其放在一个 HashMap 中，然后显示 HashMap 的内容。
+
+
+Requirements:
+1.	程序必须从键盘读取数据。
+2.	程序应在屏幕上显示文本。
+3.	Solution 类必须具有三个变量。
+4.	程序应用从键盘读取的 10 对填充 HashMap。
+5.	程序应显示 HashMap 的内容。每行显示一个值。
+
+

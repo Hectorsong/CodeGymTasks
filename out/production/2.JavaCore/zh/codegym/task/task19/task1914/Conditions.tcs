@@ -1,0 +1,24 @@
+taskKey="zh.codegym.task.task19.task1914"\n\n问题解决
+
+将 main 方法的 System.outx 对象替换为你自己的 Reader 包装类（与课程中展示的类似）。
+你的 Reader 包装类应将解决方案输出到控制台。
+调用 testString 的现有 printSomething() 方法。
+将 System.out 变量重新恢复为原始流。
+可能的操作：+ - *
+输入和输出的格式：a [运算符] b = c
+不允许使用负数、分数和一元运算符（例如阶乘和平方根）。
+示例输出：
+3 + 6 = 9
+
+
+Requirements:
+1.	Solution 类必须包含 TestString 类。
+2.	Solution 类必须包含立即初始化的名为 testString 的 public static TestString 字段。
+3.	TestString 类必须包含 public void printSomething() 方法。
+4.	TestString 类的 printSomething() 方法必须显示字符串&ldquo;3 + 6 = &rdquo;。
+5.	Solution 类的 main(String[] args) 方法必须创建 PrintStream 对象（使用带 ByteArrayOutputStream 参数的 PrintStream 构造方法）。
+6.	Solution 类的 main(String[] args) 方法应替换，然后恢复控制台输出流 (System.out)。
+7.	Solution 类的 main(String[] args) 方法必须调用 testString 的 printSomething() 方法。
+8.	Solution 类的 main(String[] args) 方法必须根据任务条件修改 printSomething() 方法输出的行，并将其输出到控制台。
+
+

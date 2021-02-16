@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task06.task0616"\n\n最小数量的 static
+
+放入使代码开始工作和程序成功完成所需的最小数量的 static 修饰符。
+
+
+Requirements:
+1.	不要更改方法实现或访问修饰符。
+2.	将 static 修饰符添加到所需位置。
+3.	程序只能包含 4 个 static 修饰符。
+4.	程序应在屏幕上显示文本。
+
+

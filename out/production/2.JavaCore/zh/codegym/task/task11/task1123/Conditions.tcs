@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task11.task1123"\n\n最小和最大
+
+编写返回数组的最小和最大数字的方法。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	不要更改 Pair 类。
+3.	不要更改 main 方法。
+4.	完成编写 getMinimumAndMaximum 方法。它必须返回一个包含最小值和最大值的对。
+5.	程序必须返回正确的结果。
+6.	getMinimumAndMaximum() 方法不应修改 inputArray 数组。
+
+

@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task12.task1210"\n\n三种方法和最大值
+
+编写以下 public static 方法：int max(int, int)、long max(long, long)、double max(double, double)。
+每个方法必须返回传递给它的两个数字中的最大值。
+
+
+Requirements:
+1.	程序不应该在屏幕上显示文本。
+2.	Solution 类必须包含四个方法。
+3.	Solution 类必须包含 static int max(int, int) 方法。
+4.	int max(int, int) 方法必须返回两个 int 数字中的最大值。
+5.	Solution 类必须包含 static long max(long, long) 方法。
+6.	long max(long, long) 方法必须返回两个 long 数字中的最大值。
+7.	Solution 类必须包含 static double max(double, double) 方法。
+8.	double max(double, double) 方法必须返回两个 double 数字中的最大值。
+
+

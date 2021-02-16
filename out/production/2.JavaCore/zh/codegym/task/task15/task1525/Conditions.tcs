@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task15.task1525"\n\nstatic 块中的文件
+
+1.将变量 Statics.FILE_NAME 初始化为包含几行数据文件的完整路径。
+2.然后，在 static 块，从名为 Statics.FILE_NAME 的文件读取所有行，然后分别添加到列表行中。
+
+
+Requirements:
+1.	constant FILE_NAME 不能为空。
+2.	在 static 块，从名为 FILE_NAME 的文件读取所有行，然后分别添加到列表行中。
+3.	 字段 FILE_NAME 不得为 final。
+4.	Solution 类必须包含一列行。
+
+

@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task01.task0132"\n\n三位数的数字和
+
+为 sumDigitsInNumber(int number) 编写代码。该方法获取一个三位数的整数。你需要计算此数字的各位数之和，然后返回结果。
+
+请考虑以下示例：
+使用参数 546 调用 sumDigitsInNumber 方法。
+
+示例输出：
+15
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	sumDigitsInNumber(int) 方法必须是 public 和 static。
+3.	sumDigitsInNumber 方法必须返回 int 类型的值。
+4.	sumDigitsInNumber 方法不应显示任何内容。
+5.	sumDigitsInNumber 方法必须返回参数 number 中的各位数字之和。
+
+

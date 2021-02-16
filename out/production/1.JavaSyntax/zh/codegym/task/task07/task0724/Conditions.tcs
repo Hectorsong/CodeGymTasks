@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task07.task0724"\n\n家庭人口普查
+
+创建 Human 类，该类包含 String name、boolean sex、int age、Human father 和 Human mother 字段。创建并填充对象，以便我们最终得到：两个祖父、两个祖母、一个父亲、一个母亲和三个孩子。在屏幕上显示对象。
+
+注意：
+如果你在 Human 类中编写自己的 String toString() 方法，该方法将用于在屏幕上显示对象。
+
+示例输出：
+名字：安娜，性别：女，年龄：21，父亲：保罗，母亲：凯特
+名字：凯特，性别：女，年龄：55
+名字：本，性别：男，年龄：2，父亲：迈克尔，母亲：安娜
+…
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	向 Human 类中添加以下字段：String name、boolean sex、int age、Human father 和 Human mother。
+3.	添加构造方法：public Human(String name, boolean sex, int age)。
+4.	添加构造方法：public Human(String name, boolean sex, int age, Human father, Human mother)。
+5.	创建 9 个不同的 Human 对象（4 个没有父母的对象和 5 个有父母的对象）。
+6.	在屏幕上显示所有已创建的对象。
+
+

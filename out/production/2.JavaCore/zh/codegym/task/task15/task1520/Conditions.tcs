@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task15.task1520"\n\n大脑训练
+
+查找逻辑错误：Duck 应正确实现 CanMove 接口。
+请修复错误。
+输出应为：
+飞行
+移动
+
+
+Requirements:
+1.	屏幕输出必须匹配任务条件。
+2.	Duck 类必须实现 doAnotherAction 方法。
+3.	Duck 类的 doAnotherAction() 方法应显示&ldquo;移动&rdquo;。
+4.	Util 类的 move 方法应在所传递的对象上调用 doAnotherAction 方法。
+5.	Duck 类必须实现 CanMove 接口。
+6.	Duck 类必须实现 CanFly 接口。
+
+

@@ -1,0 +1,24 @@
+taskKey="zh.codegym.task.task15.task1524"\n\n加载变量的顺序
+
+找出初始化的内容和顺序。设置断点并使用调试程序。
+更正数据初始化的顺序以获得以下结果：
+static void init()
+Static 块
+public static void main
+非 Static 块
+static void printAllFields
+0
+null
+Solution 构造方法
+static void printAllFields
+6
+名称
+
+
+Requirements:
+1.	程序应在屏幕上显示数据。
+2.	屏幕输出必须匹配任务条件。
+3.	Solution 类的 static initializer 块应在屏幕上显示&ldquo;static void init()&rdquo;和&ldquo;Static 块&rdquo;。
+4.	程序不得从键盘读取数据。
+
+

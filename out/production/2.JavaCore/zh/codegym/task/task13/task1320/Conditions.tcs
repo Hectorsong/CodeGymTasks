@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task13.task1320"\n\nNeo
+
+1.在 User 类中实现 DBObject 接口。
+2.实现 initializeIdAndName 方法，以使程序运行并显示“用户名是 Neo，id = 1”。
+3.不要更改 toString 和 main 方法。
+4.想想 User 类的 initializeIdAndName 方法应该返回的内容。
+
+
+Requirements:
+1.	User 类必须实现 DBObject 接口。
+2.	initializeIdAndName 方法必须返回有效的 User 对象，具体就是在其上调用了此方法 (this) 的当前对象。
+3.	initializeIdAndName 方法必须使用所传递的参数设置 id 和 name 字段。
+4.	程序必须显示以下内容：&ldquo;用户名是 Neo，id = 1&rdquo;。
+5.	不要更改 toString 方法。
+6.	不要更改 main 方法。
+
+

@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task19.task1902"\n\n适配器
+
+使用 AdapterFileOutputStream 类将 FileOutputStream 适配为新的 AmigoStringWriter 接口。
+
+
+Requirements:
+1.	AmigoStringWriter 必须是接口。
+2.	AdapterFileOutputStream 类必须实现 AmigoStringWriter 接口。
+3.	AdapterFileOutputStream 类必须包含名为 fileOutputStream 的 private FileOutputStream 字段。
+4.	AdapterFileOutputStream 类必须包含带 FileOutputStream 参数的构造方法。
+5.	AdapterFileOutputStream 类的 flush() 方法必须委派对 fileOutputStream 的调用。
+6.	AdapterFileOutputStream 类的 writeString(String s) 方法必须委派对 fileOutputStream 字段的相应 write() 方法的调用。
+7.	AdapterFileOutputStream 类的 close() 方法必须委派对 fileOutputStream 的调用。
+
+

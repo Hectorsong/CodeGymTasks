@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task08.task0813"\n\n20 个以字母“L”开头的单词
+
+你需要创建 Set<String> 并添加 20 个以字母“L”开头的单词。
+
+
+Requirements:
+1.	不要更改 createSet() 方法的签名。
+2.	程序不应该在屏幕上显示文本。
+3.	程序不得从键盘读取值。
+4.	createSet() 方法必须创建并返回 set (HashSet)。
+5.	createSet() 方法返回的集必须包含 20 个以字母&ldquo;L&rdquo;开头的单词。
+
+

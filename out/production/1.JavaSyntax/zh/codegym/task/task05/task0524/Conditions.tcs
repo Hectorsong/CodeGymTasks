@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task05.task0524"\n\n轮子的基础
+
+在 Circle 类中，创建一个将初始化所有实例变量的构造方法。
+该构造方法必须带有三个参数。
+
+
+Requirements:
+1.	Circle 类必须包含 double 变量 x、y 和 r。
+2.	该类必须包含一个构造方法。
+3.	构造方法必须为 public。
+4.	构造方法必须包含三个 double 参数。
+5.	构造方法必须初始化该类的所有实例变量。
+
+

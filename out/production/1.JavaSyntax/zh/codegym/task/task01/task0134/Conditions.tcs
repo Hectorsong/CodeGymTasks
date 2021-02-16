@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task01.task0134"\n\n将池子注满水
+
+阿米戈，今天我们的任务是将船上的池子注满水。计算需要多少公升的水才能一下子将池子注满。已知池子的线性尺寸为 a x b x c，单位为米。
+这些尺寸将传递给 getVolume 方法。该方法应返回注满池子所需的水的公升数。
+
+请考虑以下示例：
+使用参数 25、5 和 2 调用 getVolume 方法。
+
+示例输出：
+250000
+
+
+Requirements:
+1.	getVolume(int, int, int) 方法必须是 public 和 static。
+2.	getVolume(int, int, int) 方法必须返回 long 类型的值。
+3.	getVolume(int, int, int) 方法不应显示任何内容。
+4.	getVolume(int, int, int) 方法必须返回注满池子所需的正确水量，以公升单位。
+
+

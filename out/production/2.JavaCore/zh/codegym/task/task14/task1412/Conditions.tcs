@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task14.task1412"\n\n实现 printMainInfo 方法
+
+1.编写 printMainInfo 方法的实现：
+1.1.如果 Drawable 对象传递给方法，则在对象上调用 draw 方法。
+1.2.如果 Movable 对象传递给方法，则在对象上调用 move 方法。
+
+
+Requirements:
+1.	Solution 类必须实现包含一个 Object 参数的 printMainInfo 方法。
+2.	PrintMainInfo 方法必须为 static。
+3.	printMainInfo 方法必须具有广泛的访问权限 (public)。
+4.	如果对象实现 Drawable 接口，则 printMainInfo 方法必须在传递的对象上调用 draw 方法。
+5.	如果对象实现 Movable 接口，则 printMainInfo 方法必须在传递的对象上调用 move 方法。
+
+

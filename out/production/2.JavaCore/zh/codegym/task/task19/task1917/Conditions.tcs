@@ -1,0 +1,26 @@
+taskKey="zh.codegym.task.task19.task1917"\n\n你自己的 FileWriter
+
+实现 FileConsoleWriter 的逻辑。
+FileConsoleWriter 类必须包含名为 fileWriter 的 private clFileWriter 字段。
+FileConsoleWriter 类必须对每个使用的构造方法初始化用于写入的 fileWriter。
+FileConsoleWriter 类必须包含 5 个 write 方法和一个 close 方法。
+public void write(char[] cbuf, int off, int len) throws IOException
+public void write(int c) throws IOException
+public void write(String str) throws IOException
+public void write(String str, int off, int len) throws IOException
+public void write(char[] cbuf) throws IOException
+public void close() throws IOException
+在将数据写入文件时，FileConsoleWriter 还必须将数据写入控制台。
+
+
+Requirements:
+1.	FileConsoleWriter 类必须包含名为 fileWriter 的 private FileWriter 字段，该字段应立即初始化。
+2.	FileConsoleWriter 类必须包含五个构造方法，这些方法初始化用于写入的 fileWriter。
+3.	FileConsoleWriter 类必须包含 write(char[] cbuf, int off, int len) throws IOException 方法，该方法应将数据写入 fileWriter 以及控制台。
+4.	FileConsoleWriter 类必须包含 write(int c) throws IOException 方法，该方法应将数据写入 fileWriter 以及控制台。
+5.	FileConsoleWriter 类必须包含 write(String str) throws IOException 方法，该方法应将数据写入 fileWriter 和控制台。
+6.	FileConsoleWriter 类必须包含 write(String str, int off, int len) throws IOException 方法，该方法应将数据写入 fileWriter 和控制台。
+7.	FileConsoleWriter 类必须包含 write(char[] cbuf) throws IOException 方法，该方法应将数据写入 fileWriter 和控制台。
+8.	FileConsoleWriter 类必须包含 close() throws IOException 方法，该方法应调用 fileWriter 上的相应方法。
+
+

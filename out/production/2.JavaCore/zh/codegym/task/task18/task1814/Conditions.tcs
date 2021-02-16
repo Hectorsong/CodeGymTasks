@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task18.task1814"\n\nUnsupportedFileName
+
+更改 TxtInputStream 类，让它只处理文本文件 (* .txt)。
+例如，first.txt 或 name.1.part3.txt。
+如果传递了非文本文件（例如 file.txt.exe），则构造方法应抛出
+UnsupportedFileNameException。
+想想如果抛出异常，你还需要做些什么。
+
+
+Requirements:
+1.	TxtInputStream 类必须继承 FileInputStream 类。
+2.	如果将文本文件传递给构造方法，TxtInputStream 的行为类似于常规的 FileInputStream。
+3.	如果将非文本文件传递给构造方法，则应抛出 UnsupportedFileNameException。
+4.	如果抛出异常，则你还必须调用 super.close()。
+
+

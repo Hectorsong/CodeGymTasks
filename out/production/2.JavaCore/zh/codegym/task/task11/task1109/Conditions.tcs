@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task11.task1109"\n\n猫狗示例
+
+将 Cat 和 Dog 类的所有内部变量设为 private。
+另外，将所有方法设为 private，除了那些允许这两个类相互交互的方法。
+
+
+Requirements:
+1.	Cat 类的变量必须为 private。
+2.	Dog 类的变量必须为 private。
+3.	Cat 类的方法必须为 private。
+4.	Dog 类的方法必须为 private。
+5.	让 Cat 和 Dog 类相互交互的方法必须为 public。
+
+

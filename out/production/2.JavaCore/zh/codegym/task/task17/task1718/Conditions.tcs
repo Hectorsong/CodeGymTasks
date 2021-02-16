@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task17.task1718"\n\n熨衣服
+
+回到日常生活...
+添加一个 synchronized 关键字，让戴安娜和史蒂夫轮流熨烫衣服，因为只有一个熨斗！
+提示：
+使用类级锁定。
+
+
+Requirements:
+1.	Solution 类必须包含 public static Clothes 类。
+2.	Solution 类必须包含 public static Iron 类。
+3.	Solution 类必须包含 public static Person 类。
+4.	Person 类必须是线程。
+5.	Person 类的 run() 方法必须包含 synchronized 块。
+6.	synchronized 块必须使用类级锁定。
+
+

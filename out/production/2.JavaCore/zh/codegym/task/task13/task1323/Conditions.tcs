@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task13.task1323"\n\nScreen 类中的 Updatable 接口
+
+让 Screen 类实现 Updatable 接口。
+
+
+Requirements:
+1.	Updatable 接口必须继承 Selectable 接口（使用 extends）。
+2.	Screen 类必须实现 Updatable 接口。
+3.	Selectable 接口的 onSelect 方法必须在 Screen 类中实现。
+4.	Updatable 接口的 refresh 方法必须在 Screen 类中实现。
+
+

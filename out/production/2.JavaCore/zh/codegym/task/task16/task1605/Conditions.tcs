@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task16.task1605"\n\n谈谈音乐
+
+1.更改 Violin 类，让它成为线程的任务。使用 MusicalInstrument 接口
+2.在 Violin 线程中实现所需的方法。应按如下所示进行实现：
+2.1.确定开始演奏的时间 - startPlaying() 方法。
+2.2.等待 1 秒 - sleepNSeconds(int n) 方法，其中 n 是秒数。
+2.3.确定停止演奏的时间 - stopPlaying() 方法。
+2.4.显示乐器演奏了多长时间。在项目 2.1 和 2.3 使用此方法。
+示例：已演奏 1002 毫秒
+
+
+Requirements:
+1.	Violin 类不应继承任何其他类。
+2.	Violin 类应实现 MusicalInstrument 接口。
+3.	Violin 类的 run 方法应调用 startPlaying 方法。
+4.	Violin 类的 run 方法应调用带 1 秒参数的 sleepNSeconds 方法。
+5.	Violin 类的 run 方法应调用 stopPlaying 方法。
+6.	Violin 类的 run 方法应显示乐器播放了多长时间（以毫秒计）。使用示例中所提供的格式。
+
+

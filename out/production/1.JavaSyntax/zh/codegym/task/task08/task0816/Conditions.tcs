@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task08.task0816"\n\n善良的艾玛和暑假
+
+创建 Map<String, Date> 并添加十个表示（姓氏、出生日期）对的条目。
+从映射中删除夏季出生的所有人。
+提示：在 CodeGym，夏季从 6 月 1 日持续到 8 月 31日。
+
+
+Requirements:
+1.	程序不应该在屏幕上显示文本。
+2.	程序不得从键盘读取值。
+3.	createMap() 方法必须创建并返回包含 (String, Date) 元素且包含 10 个条目的 HashMap。
+4.	removeAllSummerPeople() 方法应从映射中删除夏季出生的所有人。
+
+

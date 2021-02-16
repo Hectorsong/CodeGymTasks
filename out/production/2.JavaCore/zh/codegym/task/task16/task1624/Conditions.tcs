@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task16.task1624"\n\n连续线程
+
+1.弄明白程序的功能。
+2.让程序先显示线程的结果，当线程完成时，则 main 方法会继续。
+3.示例输出：
+在 MyThread 0 内
+在 MyThread 1 内
+...
+在 MyThread 9 内
+在 main 0 内
+在 main 1 内
+...
+在 main 9 内
+
+
+Requirements:
+1.	main 方法必须调用线程 t 上的 start 方法。
+2.	main 方法必须调用线程 t 上的 join 方法。
+3.	首先，程序应显示 10 行，以&ldquo;在 MyThread 内&rdquo;开始。
+4.	最后，程序应显示 10 行，以&ldquo;在 main 内&rdquo;开始。
+5.	程序总计应显示 20 行。
+
+

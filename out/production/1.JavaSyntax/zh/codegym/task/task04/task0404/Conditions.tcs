@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task04.task0404"\n\n对猫进行登记
+
+在 addNewCat 方法中编写代码，使得该方法在每次被调用时将猫的数量增加 1。
+变量 catCount 对应于猫的数量。
+
+
+Requirements:
+1.	Cat 类中只能包含一个 catCount 变量。
+2.	变量 catCount 必须为 static int、包含一个 private 访问修饰符，并且被初始化为零。
+3.	Cat 类中必须包含两个方法：addNewCat 和 main。
+4.	Cat 类的 addNewCat 方法应将猫的数量加 1。
+
+

@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task05.task0503"\n\nDog 类的 getter 和 setter
+
+创建 Dog 类。Dog 类应该包含 String 变量 name 和 int 变量 age。
+为 Dog 类的所有变量创建 getter 和 setter。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	Dog 类必须包含 String 变量 name。
+3.	Dog 类必须包含 int 变量 age。
+4.	该类必须包含变量 name 的 setter。
+5.	该类必须包含变量 name 的 getter。
+6.	该类必须包含变量 age 的 setter。
+7.	该类必须包含变量 age 的 getter。
+
+

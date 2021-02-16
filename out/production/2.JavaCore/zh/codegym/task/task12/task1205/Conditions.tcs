@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task12.task1205"\n\n动物识别
+
+编写一个方法，该方法将确定传递给它的对象的类，并返回以下值之一：“奶牛”、“鲸鱼”、“狗”或“未知动物”。
+
+
+Requirements:
+1.	程序必须在屏幕上显示文本。
+2.	不要更改 Cow 类。
+3.	不要更改 Dog 类。
+4.	不要更改 Whale 类。
+5.	不要更改 Pig 类。
+6.	getObjectType() 方法必须返回以下值之一：&ldquo;奶牛&rdquo;、&ldquo;鲸鱼&rdquo;、&ldquo;狗&rdquo;或&ldquo;未知动物&rdquo;，具体取决于传递给它的对象。例如，它应该针对 Solution.Cow 对象返回&ldquo;奶牛&rdquo;。
+
+

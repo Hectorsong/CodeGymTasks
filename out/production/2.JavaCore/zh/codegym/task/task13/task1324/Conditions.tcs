@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task13.task1324"\n\n一个类中的一个方法
+
+1.让 Fox 继承 Animal 接口。
+2.编辑代码以使 getName 方法成为 Fox 类的唯一方法。
+3.不要删除任何方法！
+
+
+Requirements:
+1.	Fox 类必须实现 Animal 接口。
+2.	Fox 类只能实现一个方法 (getName)。
+3.	Animal 接口必须声明一个 getColor 方法。
+4.	不要创建其他类或接口。
+
+

@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task08.task0821"\n\n共享的姓氏和名字
+
+1.创建 Map<String, String> 并添加用（姓氏、名字）对表示的 10 个人。
+2.在这 10 个人中，让某些人共享名字。
+3.在这 10 个人中，让某些人共享姓氏。
+4.在屏幕上显示映射的内容。
+
+
+Requirements:
+1.	程序应在屏幕上显示文本。
+2.	Solution 类只能包含三个方法。
+3.	createPeopleMap() 方法必须创建并返回包含 (String, String) 元素的映射。另外，向映射中添加 10 个人。
+4.	在 createPeopleMap() 方法中，需要添加具有相同姓氏的人。
+5.	在 createPeopleMap() 方法中，需要添加具有相同名字的人。
+6.	printPeopleMap() 方法应显示映射中的所有人。每行显示一个值。姓氏和名字应以空格分隔。
+7.	main() 方法应调用 createPeopleMap() 方法。
+8.	main() 方法应调用 printPeopleMap() 方法。
+
+

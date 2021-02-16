@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task04.task0401"\n\n这个年龄不适合我...
+
+考虑一下程序该怎么做。
+修复编程错误，以使 person.age 更改值。
+
+提示：
+仔细检查 adjustAge 方法。
+
+
+Requirements:
+1.	该程序应在屏幕上显示文本。
+2.	Person 类应该包含一个名为 age 的 public int 字段。
+3.	Person 类的 adjustAge 方法应在屏幕上显示文本。
+4.	Person 类的 AdjustAge 方法只能包含一个名为 age 的 int 参数，并且该方法必须为 void。
+5.	main 方法只能调用一次 adjustAge 方法。
+6.	Person 类的 adjustAge 方法应将 Person 的 age 增加 20。
+
+

@@ -1,0 +1,26 @@
+taskKey="zh.codegym.task.task14.task1413"\n\n计算机
+
+1.创建 CompItem 接口。
+2.在接口中添加 String getName() 方法。
+3.创建 Keyboard、Mouse 和 Monitor 类，这些类实现 CompItem 接口。
+4.getName() 方法必须返回类名称。例如，它会针对 Keyboard 类返回“键盘”。
+5.创建 Computer 类。
+6.将 private Keyboard 字段 keyboard 添加到 Computer 类。
+7.将 private Mouse 字段 mouse 添加到 Computer 类。
+8.将 private Monitor 字段 monitor 添加到 Computer 类。
+9.使用 Alt+Insert 组合键（在 Windows 上）（Constructor 命令）创建带三个参数的 Computer 类构造方法。
+10.在构造方法内部，使用参数初始化类的所有三个字段（变量）。
+11.在 Computer 中创建字段的 getter，方法如下：在该类中，使用 Alt+Insert 组合键（在 Windows 上）并选择 Getter 命令。
+12.每个类和接口应位于单独的文件中。
+
+
+Requirements:
+1.	CompItem 接口必须位于单独的文件中。
+2.	CompItem 接口必须定义 getName() 方法，该方法返回没有参数的 String 值。
+3.	Keyboard、Monitor 和 Mouse 类必须实现 CompItem 接口，并且位于单独的文件中。
+4.	类中实现 CompItem 接口的 getName 方法应返回一个简单的类名，例如Keyboard 类的&ldquo;键盘&rdquo;。
+5.	Computer 类必须在单独的文件中，并且包含以下每种类型的一个 private 字段：Keyboard、Mouse 和 Monitor。
+6.	Computer 类的构造方法应包含 3 个参数 (keyboard、mouse、monitor)，并正确初始化该类的相应字段。
+7.	对于 Computer 类的 keyboard、mouse 和 monitor 字段，你需要创建 getter (getKeyboard、getMouse、getMonitor)，这些 getter 返回 Computer 类的相应字段。
+
+

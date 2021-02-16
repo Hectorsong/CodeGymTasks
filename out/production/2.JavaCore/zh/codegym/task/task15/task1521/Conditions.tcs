@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task15.task1521"\n\nOOP：方法重载
+
+1.在 Tree 类中，重载 info(Object s) 方法两次以获得三个方法：info(Object s)、info(Number s) 和 info(String s)。
+1.1.学习 info(Object s) 方法。在新方法中创建类似的功能。
+1.2.例如，info(Number s) 方法的结果可能是“Tree 编号 123，Number 方法，Short 参数”。
+
+
+Requirements:
+1.	Tree 类必须实现 info(Object s) 方法。
+2.	Tree 类必须实现 info(Number s) 方法。
+3.	Tree 类必须实现 info(String s) 方法。
+4.	info(Number s) 方法应显示类似于 info(Object s) 方法的行，只不过将&ldquo;Object 方法&rdquo;替换为&ldquo;Number 方法&rdquo;。
+5.	info(String s) 方法应显示类似于 info(Object s) 方法的行，只不过将&ldquo;Object 方法&rdquo;替换为&ldquo;String 方法&rdquo;。
+
+

@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task18.task1813"\n\nAmigoOutputStream
+
+1 更改 AmigoOutputStream 类，让它包装 FileOutputStream 类。使用继承。
+2 在调用 close() 方法时，执行下列操作顺序：
+2.1 调用 flush() 方法。
+2.2 附加下列文本“CodeGym © All rights reserved。”使用 getBytes() 方法。
+2.3 使用 close() 方法关闭流。
+
+
+Requirements:
+1.	不要更改 main 方法。
+2.	AmigoOutputStream 类必须继承 FileOutputStream 类。
+3.	AmigoOutputStream 类的构造方法应接受 FileOutputStream 对象。
+4.	AmigoOutputStream 类中的所有 write()、flush() 和 close() 方法都必须委派给 FileOutputStream 对象。
+5.	close() 必须先调用 flush() 方法，附加其他文本，然后关闭流。
+
+

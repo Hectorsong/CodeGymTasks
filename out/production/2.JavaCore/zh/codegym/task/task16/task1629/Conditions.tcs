@@ -1,0 +1,31 @@
+taskKey="zh.codegym.task.task16.task1629"\n\n该你了！
+
+1.在 Solution 类中，创建继承 Thread 的 public static Read3Strings 类。
+2.在 run 方法中，从控制台读取三行内容。
+3.应该在一个线程上连续读取三行内容，然后合并为一个以空格分隔的字符串。
+4.在 main 方法中，显示每个线程的结果。
+5.使用 join。
+示例：
+输入：
+a
+b
+c
+d
+e
+f
+输出：
+a b c
+d e f
+
+
+Requirements:
+1.	在 Solution 类中，声明 public static Read3Strings 类。
+2.	Read3Strings 类应继承 Thread 类。
+3.	Read3Strings 类的 run 方法必须读取三行内容。
+4.	Read3Strings 类必须包含 public printResult 方法。
+5.	printResult 方法应显示 3 个读取的行，用空格分隔。
+6.	main 方法应调用所创建线程的 start 方法。
+7.	main 方法应调用所创建线程的 join 方法。
+8.	程序的输出应指示线程应顺序而不是并行读取行。
+
+

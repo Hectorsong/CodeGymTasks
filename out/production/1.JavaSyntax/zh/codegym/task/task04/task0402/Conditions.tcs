@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task04.task0402"\n\n苹果的价格
+
+计算苹果的总费用。
+苹果的总费用与 public static int applePrice 相对应。
+
+
+Requirements:
+1.	该程序应在屏幕上显示文本。
+2.	Apple 类的 addPrice 方法不应在屏幕上显示文本。
+3.	Apple 类的 applePrice 变量必须是初始化为零的 static int。
+4.	main 方法只能调用两次 addPrice 方法。
+5.	Apple 类的 addPrice 方法应将传入值加到苹果的价格上。
+
+

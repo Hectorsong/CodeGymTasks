@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task17.task1706"\n\n同步的总统
+
+我们在 static 块的同步中再次遇到单例模式。
+在 OurPresident 类内部的 static 块中创建 synchronized 块。
+在 synchronized 块内，初始化 president。
+
+
+Requirements:
+1.	OurPresident 类必须包含 private static OurPresident president。
+2.	OurPresident 类必须包含 public static OurPresident getOurPresident() 方法。
+3.	OurPresident 类必须包含 private 构造方法。
+4.	OurPresident 类必须包含 static 块。
+5.	OurPresident 类的 static 块必须包含 synchronized 块。
+6.	synchronized 块必须初始化 president。
+
+

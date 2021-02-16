@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task16.task1601"\n\n我的第一个线程
+
+创建 public static TestThread 类，这是带 Runnable 接口的线程。
+TestThread 应显示“我的第一个线程”。
+
+
+Requirements:
+1.	在 Solution 类中，添加名为 TestThread 的 public static 类。
+2.	TestThread 类必须实现 Runnable 接口。
+3.	TestThread 类的 run 方法应显示&ldquo;我的第一个线程&rdquo;。
+4.	程序应显示&ldquo;我的第一个线程&rdquo;。
+5.	不要更改 main 方法。
+
+

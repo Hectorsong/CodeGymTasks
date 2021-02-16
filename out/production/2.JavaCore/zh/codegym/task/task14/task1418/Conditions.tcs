@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task14.task1418"\n\n纠正四个错误
+
+1.想想 main 方法会怎么做。
+2.在 Solution 类中创建 static 方法 initList(List<Number&gt list)、printListValues (List<Number> list) 和 processCastObjects(List<Number> list)。
+3.找到用值填充列表的代码块并将其移动至 initList 方法。
+4.找到用 for 循环显示列表内容的代码块并将其移动至 printListValues 方法。
+5.找到检查列表中各对象类型并在屏幕上显示消息的代码块并将其移动至 processCastObjects 方法。
+6.更正 printListValues 方法中的 2 个错误，使该方法正确显示作为参数进行传递的列表的内容。
+7.更正 processCastObjects 方法中类型转换相关的 2 个错误
+- 对于 Float 对象，你要显示“是否定义了 float ？” + !(.isNaN()).
+- 对于 Double 对象，你要打印“double 是否为无限？” + <Double object>.isInfinite().
+
+
+Requirements:
+1.	Solution 类必须实现 static 方法 initList(List&lt;Number&gt; list)、printListValues​​(List&lt;Number&gt; list) 和 processCastObjects(List&lt;Number&gt; list)。
+2.	initList 方法必须用随机值填充结果列表。
+3.	printListValues 方法应显示结果列表的内容。
+4.	processCastObjects 方法应分析列表项，并根据任务条件显示 Float 和 Double 对象的文本。
+
+

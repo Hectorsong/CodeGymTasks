@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task13.task1328"\n\n机器人大战
+
+1.自己熟悉下编程代码。
+2.接受命运，继续尝试理解代码。
+3. ...
+4.很高兴你搞懂了。
+5.编辑以下新架构的代码并添加新逻辑：
+5.1.让 AbstractRobot 类为 abstract。将攻击和防守逻辑从 Robot 类移动到 AbstractRobot 类。
+5.2.编辑 Robot 类以利用 AbstractRobot 类。
+5.3.用新的身体部位扩展 BodyPart 类：BodyPart.CHEST.
+5.4.将新的身体部位添加到 CanAttack 和 CanDefend 接口(在 AbstractRobot 类中)的实现。
+
+
+Requirements:
+1.	AbstractRobot 类必须为 abstract。
+2.	AbstractRobot 类必须实现 CanAttack 和 CanDefend 接口。
+3.	Robot 类必须继承 AbstractRobot 类。
+4.	定义机器人行为方式的逻辑必须在 AbstractRobot 类中。
+5.	BodyPart 类必须包含并初始化名为 CHEST 的 final static BodyPart 变量。
+6.	新的身体部位必须添加到 AbstractRobot 类的 attack 和 defend 方法的逻辑中。
+
+

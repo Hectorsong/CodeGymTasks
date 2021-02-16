@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task06.task0613"\n\nCat 和 static
+
+在 Cat 类中，创建 static public int 变量 catCount。
+声明构造方法 public Cat()。每次创建一只猫（新的 Cat 对象）时，都将 static 变量 catCount 加 1。创建 10 个 Cat 对象，并在屏幕上显示变量 catCount 的值。
+
+
+Requirements:
+1.	在 Cat 类中，创建 static public int 变量 catCount。
+2.	在 Cat 类中，声明不带参数的 public Cat() 构造方法。
+3.	构造方法必须将 static 变量 catCount 的值加 1。
+4.	在 main 方法中，创建 10 只猫。
+5.	在 main 方法中，创建所有猫之后，显示变量 catCount 的值。
+
+

@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task16.task1622"\n\n连续线程
+
+1.在 run 方法中，在所有操作后添加 10 毫秒的延迟。如果线程已中断，则显示“线程已中断”。
+2.让所有线程顺序运行：首先，对于线程 1，从 COUNT 倒数到 1；其次，对于线程 2 - 从 COUNT 倒数到 1，依次类推。
+示例：
+#1:4
+#1:3
+...
+#1:1
+#2:4
+...
+
+
+Requirements:
+1.	程序应创建 4 个 SleepingThread 对象。
+2.	main 方法应在每个创建的 SleepingThread 对象上调用 join。
+3.	run 方法应使用 Thread.sleep(10)。
+4.	程序的输出必须符合任务的条件。
+5.	如果 SleepingThread 线程中断，应显示&ldquo;线程已中断&rdquo;。
+
+

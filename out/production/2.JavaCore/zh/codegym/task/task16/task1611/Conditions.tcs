@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task16.task1611"\n\n时钟
+
+1.弄明白程序的功能。
+2.实现 printTickTock 方法：
+2.1.每秒的前半秒应显示下列短语：嘀嘀
+2.2.每秒的后半秒应显示下列短语：哒哒
+
+
+Requirements:
+1.	printTickTock 方法应显示两行：&ldquo;嘀嘀&rdquo;和&ldquo;哒哒&rdquo;
+2.	printTickTock 方法应运行 1 秒。
+3.	printTickTock 方法应睡眠 2 次，半秒一次。使用 Thread.sleep(500)。
+4.	&ldquo;仔细检查&rdquo;后，控制台上不应有任何消息。
+5.	main 方法必须创建 Clock 对象。
+
+

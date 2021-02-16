@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task19.task1909"\n\n更改标点符号
+
+从控制台读取 2 个文件名。
+第一个文件包含文本。
+读取第一个文件的内容并将所有句点（“.”）改为叹号（“!”）。
+然后，将结果输出到第二个文件。
+关闭流。
+
+
+Requirements:
+1.	程序应从控制台读取文件名（使用 BufferedReader）。
+2.	在使用用于从控制台读取输入的 BufferedReader 后必须将其关闭。
+3.	程序必须读取第一个文件的内容（使用带 FileReader 参数的 BufferedReader 构造方法）。
+4.	必须关闭文件输入流 (BufferedReader)。
+5.	程序必须将第一个文件的内容写入第二个文件，将所有句点（&ldquo;.&rdquo;）替换为感叹号（&ldquo;!&rdquo;）（使用带 FileWriter 参数的 BufferedWriter）。
+6.	必须关闭文件输出流 (BufferedWriter)。
+
+

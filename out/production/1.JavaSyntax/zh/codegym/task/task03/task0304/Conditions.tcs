@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task03.task0304"\n\n有关百分比的任务
+
+为 addTenPercent 方法编写代码，将传递的整数增加 10%。
+使用 return 语句从 addTenPercent 方法返回结果。
+
+请考虑以下示例：
+return 123 * 435;
+
+
+Requirements:
+1.	addTenPercent 方法应将传递的数字增加 10%。
+2.	main 方法应调用 addTenPercent 方法。
+3.	main 方法应显示调用的结果。
+4.	addTenPercent 方法不应显示任何内容。
+
+

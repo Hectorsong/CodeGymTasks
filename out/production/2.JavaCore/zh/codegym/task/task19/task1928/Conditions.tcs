@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task19.task1928"\n\n更正错误。类和接口
+
+此程序只有 1 个逻辑错误。
+请找到并修复。
+
+
+Requirements:
+1.	Solution 类必须包含 Example 接口。
+2.	Solution 类必须包含实现 Example 接口的 A 类。
+3.	Solution 类必须包含实现 Example 接口的 B 类。
+4.	Solution 类必须包含继承 A 类的 C 类。
+5.	仅更正逻辑中的一个错误。
+
+

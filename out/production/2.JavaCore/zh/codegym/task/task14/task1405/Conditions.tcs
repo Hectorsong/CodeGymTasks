@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task14.task1405"\n\n食物
+
+1.在 Food 类中实现 Selectable 接口。
+2.onSelect() 方法应显示“已选择食物”。
+3.想想哪些方法可通过变量 food 调用，哪些可通过变量 selectable 调用。
+4.在 foodMethods 方法中，尽可能调用 onSelect 和 onEat 方法。
+5.在 selectableMethods 方法中，尽可能调用 onSelect 和 onEat 方法。
+6.不要使用显式类型转换。
+
+
+Requirements:
+1.	必须在 Food 类中实现 Selectable 接口。
+2.	Food 类中的 onSelect() 方法应显示&ldquo;已选择食物&rdquo;。
+3.	在 foodMethods 方法中，你要在 Food 对象上调用方法。
+4.	在 selectableMethods 方法中，你要调用可从实现 Selectable 接口的任何对象访问的方法。
+
+

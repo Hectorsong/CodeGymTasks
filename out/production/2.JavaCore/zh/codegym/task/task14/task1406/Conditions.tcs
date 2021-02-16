@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task14.task1406"\n\n没有错误
+
+将 obj 设置为允许 main 方法无误运行的对象。
+
+
+Requirements:
+1.	GrayMouse 类必须继承 Mouse 类。
+2.	Jerry 类必须继承 GrayMouse 类。
+3.	变量 obj 应引用同时是 Mouse、GrayMouse 和 Jerry 的对象。
+4.	main 方法必须调用 printClasses 方法。
+
+

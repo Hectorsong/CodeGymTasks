@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task17.task1713"\n\n共享列表
+
+1.更改 Solution 类，让其成为列表。（它必须实现 java.util.List 接口）。
+2.Solution 列表只应使用 Longs。
+3.使用 original 字段。
+4.此列表将由 threads 使用，因此你需要确保所有的方法都是 synchronized。
+
+
+Requirements:
+1.	Solution 类必须实现 List&lt;Long&gt; 接口。
+2.	Solution 类必须包含名为 original 的 private ArrayList&lt;Long&gt; 字段。
+3.	所有 List 接口的重写方法必须委派对 original 对象方法的调用。
+4.	除 main 方法外，所有 Solution 类的方法都必须为 synchronized。
+
+

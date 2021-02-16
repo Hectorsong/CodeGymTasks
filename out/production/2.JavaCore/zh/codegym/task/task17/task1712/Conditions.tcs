@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task17.task1712"\n\n餐厅
+
+1.弄明白程序的功能。出于某种原因，服务员没有将准备好的菜肴端到餐桌上 :(
+2.请修复错误。
+提示：一行有错
+
+
+Requirements:
+1.	Restaurant 类应包含 cook 和 waiter 的列表（public static List&lt;Thread&gt; threads）。
+2.	Manager 类必须包含一个订单队列 (private final Queue&lt;Order&gt; orderQueue)。
+3.	Manager 类必须包含具有做好的菜肴的队列 (private final Queue&lt;Dish&gt; dishQueue)。
+4.	Manager 类必须实现单例模式。
+5.	Waiter 类必须实现 Runnable 接口。
+6.	Cook 类必须实现 Runnable 接口。
+7.	如果队列中没做好的菜肴，Waiter 线程应从餐桌上获取订单，然后将其添加到订单队列。
+8.	如果队列中有做好的饭菜，Waiter 线程应将菜肴移出队列并将订单中的菜肴放在餐桌上。
+9.	如果订单队列中没有订单，则 Cook 线程应休息（即厨师应休息）。
+10.	如果订单队列中有订单，则 Cook 线程应准备菜肴，并将其添加到转备好菜肴的队列。
+
+

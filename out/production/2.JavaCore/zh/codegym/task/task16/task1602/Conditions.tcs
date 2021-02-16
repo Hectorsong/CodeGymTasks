@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task16.task1602"\n\n我的第二个线程
+
+1.创建继承 Thread 类的 public static TestThread 类。
+2.在 TestThread 内创建一个 static 块，该块显示“这是 TestThread 内的 static 块”。
+3.run 方法应显示“这是 run 方法”。
+
+
+Requirements:
+1.	在 Solution 类中，添加名为 TestThread 的 public static 类。
+2.	TestThread 类必须继承 Thread 类。
+3.	TestThread 类应实现任何其他接口。
+4.	在 TestThread 内创建一个 static 块，该块显示&ldquo;这是 TestThread 内的 static 块&rdquo;。
+5.	TestThread 类的 run 方法应显示&ldquo;这是 run 方法&rdquo;。
+6.	不要更改 main 方法。
+
+

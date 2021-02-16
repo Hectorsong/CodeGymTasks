@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task06.task0608"\n\n猫的 static 方法
+
+向 Cat 类中添加两个 static 方法：int getCatCount() 和 setCatCount(int)，用于获取/更改猫的数量（变量 catCount）。
+
+
+Requirements:
+1.	向类中添加 getCatCount 方法。
+2.	getCatCount 方法必须返回 int 值。
+3.	getCatCount 方法必须返回变量 catCount 的值。
+4.	向类中添加带 int 参数的 setCatCount 方法。
+5.	setCatCount 方法不应返回任何内容。
+6.	setCatCount 方法必须将变量 catCount 设置为传递的值。
+
+

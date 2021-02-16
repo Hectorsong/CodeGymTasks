@@ -1,0 +1,24 @@
+taskKey="zh.codegym.task.task15.task1516"\n\n默认值
+
+1.为类创建 7 个 public 字段。确保使用默认值初始化这些字段。
+int intVar
+double doubleVar
+Double DoubleVar
+boolean booleanVar
+Object ObjectVar
+Exception ExceptionVar
+String StringVar
+2.在 main 方法中，按指定顺序显示值。
+
+
+Requirements:
+1.	Solution 类必须定义一个 int 字段 intVar。
+2.	Solution 类必须定义一个 double 字段 doubleVar。
+3.	Solution 类必须定义一个 Double 字段 DoubleVar。
+4.	Solution 类必须定义一个 boolean 字段 booleanVar。
+5.	Solution 类必须定义一个 Object 字段 ObjectVar。
+6.	Solution 类必须定义一个 Exception 字段 ExceptionVar。
+7.	Solution 类必须定义一个 String 字段 StringVar。
+8.	main 方法应在屏幕上按指定顺序显示字段值（每行一个或用空格隔开）。你不必初始化变量。
+
+

@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task16.task1619"\n\n无中断，没门？
+
+弄明白程序是如何工作的。
+这样可让 ourInterrupt 方法允许 TestThread 自行中断。
+不使用 interrupt 方法。
+
+
+Requirements:
+1.	Solution 类必须包含名为 ourInterrupt 的 public static 方法，不带参数。
+2.	run 方法应每半秒显示一次&ldquo;呵呵&rdquo;，直到调用 ourInterrupt 方法为止。
+3.	你必须在 run 方法中更改 while 循环的条件。
+4.	main 方法必须将 TestThread 对象传递到构造方法来创建 Thread 对象。
+5.	main 方法必须调用 Thread 对象上 start 方法。
+6.	main 方法必须调用 ourInterrupt 方法。
+
+

@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task14.task1416"\n\n修复错误
+
+1.想想 CanSwim 和 CanWalk 接口如何关联至 SeaCreature 类。
+2.创建接口和 SeaCreature 类之间的正确继承关系。
+3.想想 Orca、Whale 和 RiverOtter 类如何关联至 SeaCreature 类。
+4.创建 Orca、Whale 和 RiverOtter 类以及 SeaCreature 类之间的正确继承关系。
+5.想想哪些类应实现 CanWalk 接口并将此接口添加到该类。
+6.想想哪些动物无法游泳，并向其添加 CanSwim 接口。
+
+
+Requirements:
+1.	虎鲸是一种海洋生物（SeaCreature 的后代），会游泳（支持 CanSwim 接口）。
+2.	鲸鱼是一种海洋生物（SeaCreature 的后代），会游泳（支持 CanSwim 接口）。
+3.	RiverOtter 可以行走（支持 CanWalk 接口）和游泳（支持 CanSwim 接口）。
+4.	水獭不是海洋生物（SeaCreature 的后代）。
+5.	鲸鱼和虎鲸不知道如何走路（不支持 CanWalk 接口）。
+
+

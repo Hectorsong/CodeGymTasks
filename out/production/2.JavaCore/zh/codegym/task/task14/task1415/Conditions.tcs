@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task14.task1415"\n\n清洁服务
+
+1.实现 cleanAllApartments 方法。
+对于 apartments 中的每个对象：
+2.对于一间卧室的公寓 (OneRoomApt)，调用 clean1Room 方法。
+即，如果传递了 OneRoomApt 对象，则调用 clean1Room 方法。
+3.对于两间卧室的公寓 (TwoRoomApt)，则调用 clean2Rooms 方法
+即，如果传递了 TwoRoomApt 对象，则调用 clean2Rooms 方法。
+4.对于三间卧室的公寓 (ThreeRoomApt)，则调用 clean3Rooms 方法
+即，如果传递了 ThreeRoomApt 对象，则调用 clean3Rooms 方法。
+
+
+Requirements:
+1.	cleanAllApartments 方法必须接受公寓列表作为参数。
+2.	对于列表中所有一间卧室的公寓 (OneRoomApt)，cleanAllApartments 方法必须调用 clean1Room 方法。
+3.	对于列表中所有两间卧室的公寓 (TwoRoomApt)，cleanAllApartments 方法必须调用 clean2Rooms 方法。
+4.	对于列表中所有三间卧室的公寓 (ThreeRoomApt)，cleanAllApartments 方法必须调用 clean3Rooms 方法。
+5.	OneRoomApt、TwoRoomApt 和 ThreeRoomApt 类应支持（实现）Apartment 接口。
+
+

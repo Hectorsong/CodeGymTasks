@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task19.task1904"\n\n另一个适配器
+
+将 Scanner 适配为 PersonScanner 接口。
+适配器类是 PersonScannerAdapter。
+在适配器类中创建名为 fileScanner 的 private final Scanner 字段。 使用一个 Scanner 参数初始化构造方法中的字段。
+文件采用下列格式存储数据：
+约翰 迈克尔 彼得森 12 31 1950
+拉里 托马斯 盖茨 12 31 1957
+文件包含有关许多人员的信息。每行包含单个人员的数据。read() 方法必须仅读取一个人员的信息。
+
+
+Requirements:
+1.	PersonScanner 必须为接口。
+2.	PersonScannerAdapter 类必须实现 PersonScanner 接口。
+3.	PersonScannerAdapter 类必须包含名为 fileScanner 的 private Scanner 字段。
+4.	PersonScannerAdapter 类必须包含带 Scanner 参数的构造方法。
+5.	PersonScannerAdapter 类的 close() 方法必须委派对 fileScanner 的调用
+6.	PersonScannerAdapter 类的 read() 方法应从文件读取一行，粘贴该行，仅返回一个人员的数据作为 Person 对象。
+
+

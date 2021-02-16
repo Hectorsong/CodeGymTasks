@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task09.task0928"\n\n代码将无法编译…
+
+任务：程序读取两个文件名。它将第一个文件复制到第二个文件名指定的位置。
+
+
+Requirements:
+1.	程序必须读取文件名。
+2.	不要更改 getInputStream 方法。
+3.	不要更改 getOutputStream 方法。
+4.	程序必须将第一个文件的内容复制到第二个文件。
+5.	程序应显示复制的字节数。
+6.	main 方法应调用 getInputStream 方法。
+7.	main 方法应调用 getOutputStream 方法。
+
+

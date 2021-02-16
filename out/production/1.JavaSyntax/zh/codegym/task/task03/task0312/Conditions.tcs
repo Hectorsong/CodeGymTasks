@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task03.task0312"\n\n时间转换
+
+添加一个 public static int convertToSeconds(int hour) 方法，将小时数转换为秒数。
+在 main 方法中使用任意参数调用该方法两次。
+显示结果，每次都在新的一行上显示。
+
+
+Requirements:
+1.	添加 convertToSeconds 方法。该方法必须为 public static，带 int 类型参数，返回 int 类型的值。
+2.	convertToSeconds 方法必须将传递的小时数转换为秒数。
+3.	main 方法必须调用两次 convertToSeconds 方法。
+4.	main 方法应显示调用的结果，每次都在新的一行上显示。
+5.	convertToSeconds 方法不应显示任何内容。
+
+

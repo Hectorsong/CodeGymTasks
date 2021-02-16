@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task09.task0925"\n\n错位的 static 修饰符
+
+重新整理 static 修饰符，这个示例程序才能编译。
+
+
+Requirements:
+1.	该类必须包含变量 A。
+2.	该类必须包含变量 B。
+3.	该类必须包含变量 C。
+4.	不要更改 main 方法。
+5.	不要更改 getA 方法。
+6.	该类必须包含 3 个 static 字段。
+
+

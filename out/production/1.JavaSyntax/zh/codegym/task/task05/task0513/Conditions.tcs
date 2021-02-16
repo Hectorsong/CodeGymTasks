@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task05.task0513"\n\n我们来组合一个矩形
+
+创建 Rectangle 类。此类的数据为 top、left、width、height。
+创建尽可能多的 initialize(...) 方法
+
+下面是一些示例：
+- 指定 4 个参数：left、top、width 和 height
+- 未指定 width/height（二者皆为 0）
+- 未指定 height（它等于 width），我们将创建一个正方形
+- 创建作为参数传递的另一个矩形的副本
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	Rectangle 类必须包含 int 变量 top、left、width 和 height。
+3.	该类必须至少包含一个 initialize 方法。
+4.	该类必须至少包含两个 initialize 方法。
+5.	该类必须至少包含三个 initialize 方法。
+6.	该类必须至少包含四个 initialize 方法。
+
+

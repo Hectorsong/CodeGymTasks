@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task11.task1108"\n\n不可触摸的猫
+
+隐藏 Cat 类所有内部变量以及能够改变 Cat 对象的内部状态的任何方法。
+
+
+Requirements:
+1.	Cat 类的变量 name 必须为 private。
+2.	Cat 类的变量 age 必须为 private。
+3.	Cat 类的变量 weight 必须为 private。
+4.	getName getter 必须为 public。
+5.	setName setter 必须为 private。
+6.	getAge getter 必须为 public。
+7.	setAge setter 必须为 private。
+
+

@@ -1,0 +1,24 @@
+taskKey="zh.codegym.task.task17.task1715"\n\nPharmacy（药房）
+
+在 Pharmacy 和 Person 类中实现 Runnable 接口。
+所有线程都应运行到 isStopped 为 true 为止。
+这是 Pharmacy 类的逻辑：drugController 应随机购买（调用 void buy(Drug drug, int count) 方法）随机数量 (getRandomCount) 的随机药品 (getRandomDrug) 并等待 300 毫秒。
+这是 Person 类的逻辑：drugController 应随机销售（调用 void sell(Drug drug, int count) 方法）随机数量 (getRandomCount) 的随机药品 (getRandomDrug) 并等待 100 毫秒。
+需要是使用 synchronized 关键字。
+
+
+Requirements:
+1.	Solution 类必须包含名为 drugController 的 public static DrugControlle 字段。
+2.	Solution 类必须包含名为 isStopped 的 public static boolean field 字段。
+3.	Solution 类必须包含 private static void waitAMoment() 方法，该方法等待 100 毫秒。
+4.	Pharmacy 类必须实现 Runnable 接口。
+5.	只要 isStopped 为 false，Pharmacy 线程就应运行。
+6.	Pharmacy 线程必须使用 drugController 随机购买随机数量 (getRandomCount) 的药品 (getRandomDrug)。
+7.	Pharmacy 线程应使用 waitAMoment() 方法在两次购买之间等待 300 毫秒。
+8.	Person 类必须实现 Runnable 接口。
+9.	只要 isStopped 为 false，Person 线程就应运行。
+10.	Person 线程必须使用 drugController 随机销售随机数量 (getRandomCount) 的药品 (getRandomDrug)。
+11.	Person 线程应使用 waitAMoment() 方法在两次购买之间等待 100 毫秒。
+12.	DrugController 类的方法必须为 synchronized。
+
+

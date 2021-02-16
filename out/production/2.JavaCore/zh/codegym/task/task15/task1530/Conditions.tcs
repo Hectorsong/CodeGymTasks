@@ -1,0 +1,33 @@
+taskKey="zh.codegym.task.task15.task1530"\n\n模板模式
+
+1.在单独的文件中，创建含三个抽象方法的 DrinkMaker 类：
+- void getRightCup() - 选择合适的杯子
+- void addIngredients() - 加入原料
+- void pour() - 倒入液体
+2.在 DrinkMaker 类中，声明和实现 void makeDrink() 方法，它按以下列顺序准备饮料：选择一个杯子，加入原料，倒入液体。
+3.在单独的文件中，创建继承 DrinkMaker 的 LatteMaker 和 TeaMaker 类。
+4.在 LatteMaker 和 TeaMaker 类的方法中分配如下短语，不同的方法对应不同的短语。
+5.每种方法都应显示自己的短语，不显示其他方法的短语。
+6.短语：
+“注入沸水”
+“拿一个杯子装拿铁”
+“添加茶叶”
+“拿一个杯子装茶”
+“倒入泡沫牛奶”
+“煮咖啡”
+
+
+Requirements:
+1.	DrinkMaker 类必须位于单独的文件中，且必须为 abstract。
+2.	DrinkMaker 类必须具有三种 abstract 方法：getRightCup、addIngredients 和 pour。
+3.	DrinkMaker 类必须实现 makeDrink 方法，该方法以任务条件指定的顺序调用此类的 abstract 方法。
+4.	LatteMaker 类必须位于单独的文件中，并且是 DrinkMaker 类的后代。
+5.	TeaMaker 类必须位于单独的文件中，并且是 DrinkMaker 类的后代。
+6.	LatteMaker 类的 getRightCup 方法应显示&ldquo;拿一个杯子装拿铁&rdquo;。
+7.	LatteMaker 的 addIngredients 方法应显示&ldquo;煮咖啡&rdquo;。
+8.	LatteMaker 类的 pour 方法应显示&ldquo;倒入泡沫牛奶&rdquo;。
+9.	TeaMaker 类的 getRightCup 方法应显示&ldquo;拿一个杯子装茶&rdquo;。
+10.	TeaMaker 类的 addIngredients 方法应显示&ldquo;添加茶叶&rdquo;。
+11.	TeaMaker 类的 pour 方法应显示&ldquo;注入沸水&rdquo;。
+
+

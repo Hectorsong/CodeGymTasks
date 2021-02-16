@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task14.task1409"\n\n桥梁
+
+1.创建包含 int getCarsCount() 方法的 Bridge 接口。
+2.编写实现 Bridge 接口的 WaterBridge 和 SuspensionBridge 类。
+3.getCarsCount() 方法必须返回任何 constant int 值。
+4.getCarsCount() 方法必须返回不同类的不同值。
+5.在 Solution 类中创建 public println(Bridge bridge) 方法。
+6.在 println 方法，显示在 bridge 对象上调用 getCarsCount() 方法的结果。
+7.每个类和接口必须位于单独的文件中。
+
+
+Requirements:
+1.	Bridge 接口必须位于单独的文件中。
+2.	WaterBridge 和 SuspensionBridge 类必须位于单独的文件中。
+3.	WaterBridge 和 SuspensionBridge 类必须实现 Bridge 接口。
+4.	对于不同的类，getCarsCount() 方法必须返回不同类的 int 值，但对于相同类的不同对象，则始终返回相同的值。
+5.	Solution 类必须实现包含一个 Bridge 参数的 public println 方法。
+6.	println 方法必须显示所传递的 Bridge 对象的汽车数量（getCarsCount 方法的结果）。
+7.	Bridge 接口必须定义 int GetCarsCount() 方法。
+
+

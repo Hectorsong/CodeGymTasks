@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task16.task1607"\n\n赛马
+
+弄明白程序的功能。
+实现 calculateHorsesFinished 方法。
+必须：
+1.计算并返回已经赛完的马的数量。使用 isFinished() 方法。
+2.如果马尚未越过终点线 (!IsFinished())，则：
+2.1.显示“正在等待 ”+ horse.getName()。
+2.2.等待，直到它完成比赛。想想你需要使用什么方法来执行此操作。
+2.3.不将这种马视作完成比赛。
+
+
+Requirements:
+1.	calculateHorsesFinished 方法必须返回已完成比赛的马的数量。
+2.	calculateHorsesFinished 方法必须在通过列表的每个马上调用 isFinished 方法。
+3.	如果通过列表的任何马尚未完成比赛，则 calculateHorsesFinished 方法应显示&ldquo;正在等待 &rdquo;+ horse.getName()。第一个马的示例输出：&ldquo;正在等待 Horse_01&rdquo;。
+4.	如果通过列表的任何马尚未完成比赛，则 calculateHorsesFinished 方法必须等到它完成为止。使用正确的方法进行等待。
+5.	在程序完成后，控制台必须指示所有马都已完成比赛。第一个马的示例输出：&ldquo;Horse_01 已完成比赛！&rdquo;。
+
+

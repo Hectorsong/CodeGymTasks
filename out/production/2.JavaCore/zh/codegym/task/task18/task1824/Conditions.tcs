@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task18.task1824"\n\n文件和异常
+
+从控制台读取文件名。
+如果文件不存在（即提供了无效的文件名），则捕获 FileNotFoundException，显示无效的文件名，然后退出程序。
+关闭流。
+不使用 System.exit();
+
+
+Requirements:
+1.	程序应从控制台读取文件名。
+2.	你需要为每个文件创建一个输入流。
+3.	如果文件不存在，程序必须捕获 FileNotFoundException。
+4.	在捕获异常后，程序应显示文件名并退出。
+5.	必须关闭文件输入流。
+6.	不使用&ldquo;System.exit();&rdquo;。
+
+

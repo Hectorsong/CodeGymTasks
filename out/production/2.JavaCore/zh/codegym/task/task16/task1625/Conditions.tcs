@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task16.task1625"\n\n死锁
+
+1.弄明白程序是如何工作的。
+2.不更改 T1 和 T2 类，让其线程完成（不一定成功）。
+3.不要使用 sleep 方法。
+
+
+Requirements:
+1.	main 方法必须启动 t1 线程。
+2.	main 方法必须启动 t2 线程。
+3.	不要更改 T1 类。
+4.	不要更改 T2 类。
+5.	不要使用 sleep 方法。
+6.	程序的输出应包含 2 行，指示线程已完成。例如：&ldquo;T1 已中断&rdquo;和&ldquo;T2 已完成&rdquo;。
+7.	t1 和 t2 线程必须结束（不一定成功）。
+
+

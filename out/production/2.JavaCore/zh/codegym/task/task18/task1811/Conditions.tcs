@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task18.task1811"\n\n包装类（装饰类）
+
+弄明白程序的功能。
+比照 DecoratorRunnableImpl 类，创建 DecoratorMyRunnableImpl 类。
+
+
+Requirements:
+1.	创建名为 DecoratorMyRunnableImpl 的类，与 DecoratorRunnableImpl 类似。
+2.	在程序启动后，每个类应显示&ldquo;&lt;类名&gt; 正文&rdquo;。
+3.	不要更改 RunnableImpl 和 DecoratorRunnableImpl 类。
+4.	不要更改 main 方法。
+
+

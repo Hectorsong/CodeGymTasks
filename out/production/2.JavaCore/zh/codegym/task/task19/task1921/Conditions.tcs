@@ -1,0 +1,24 @@
+taskKey="zh.codegym.task.task19.task1921"\n\n约翰 约翰逊
+
+main 方法的第一个参数是文件名。
+指定文件的每个行包含下列各式：
+名称 月 日 年
+其中，[姓名] 是 String，可以包含空格分隔的数个字词。
+[月] 为 int，[日] 为 int，[年] 为 int。
+数据由空格分隔。
+使用文件数据填写 PEOPLE 列表。
+关闭流。
+示例输入文件：
+约翰 杰克 约翰逊 12 31 1987
+文森特 5 15 2013
+
+
+Requirements:
+1.	Solution 类必须包含名为 PEOPLE 的 public List&lt;Person&gt; constant，必须对其立即初始化。
+2.	程序不得从控制台读取数据。
+3.	程序必须读取文件内容（使用 FileReader）。
+4.	必须关闭文件输入流 (FileReader)。
+5.	程序必须使用文件中的数据填写 PEOPLE 列表。
+6.	程序应正确处理带连字符的名称，例如 Mary-Jo。
+
+

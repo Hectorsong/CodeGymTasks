@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task16.task1612"\n\n秒表
+
+1.弄明白程序的功能。
+2.实现 doStep 方法中的逻辑，以将跑步者的速度考虑在内。
+2.1.Runner 类的 getSpeed() 方法显示跑步者一秒跑多少步。
+跑步者需要每秒跑实际数量的步数。
+如果尤塞恩每秒跑 4 步，则他 2 秒可以跑 8 步。
+如果卡尔每秒跑 2 步，则他 2 秒可以跑 4 步。
+2.2.Thread 类的 sleep 方法含一个 long 参数。
+重要！使用 Thread.sleep() 方法，不使用 Stopwatch.sleep() 方法。
+
+
+Requirements:
+1.	getSpeed 方法必须返回 int。
+2.	Runner 类的字段 speed 必须为 int。
+3.	Runner 类的构造方法必须接受 String 和 int。
+4.	doStep 方法必须考虑跑步者的速度。如果跑步者的速度是每秒 2 步，则此方法应运行半秒；如果跑步者的速度为每秒 4 步，则此方法应运行四分之一秒。
+5.	程序的输出应指示尤塞恩和卡尔 2 秒内跑多少步。
+
+

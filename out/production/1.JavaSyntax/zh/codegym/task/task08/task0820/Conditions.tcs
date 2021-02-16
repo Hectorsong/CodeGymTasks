@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task08.task0820"\n\n动物集
+
+1.在 Solution 类的内部，创建 public static 类 Cat 和 Dog。
+2.实现 createCats 方法，该方法应返回包含 4 个猫的集。
+3.实现 createDogs 方法，该方法应返回包含 3 个狗的集。
+4.实现 join 方法，该方法应返回所有动物的合集（所有的猫和狗）。
+5.实现 removeCats 方法，该方法应从 pets 集中删除 cats 集中的所有猫。
+6.实现 printPets 方法，该方法应显示 pets 集中的所有动物。
+每行显示一个动物。
+
+
+Requirements:
+1.	程序应在屏幕上显示文本。
+2.	Solution 类的内部应包含 public static 类 Cat 和 Dog。
+3.	Solution 类的 createCats() 方法必须返回包含 4 个猫的 Set。
+4.	Solution 类的 createDogs() 方法必须返回包含 3 个狗的 Set。
+5.	Solution 类的 join() 方法应返回所有动物（所有 cats 和 dogs）的合集。
+6.	removeCats() 方法应从 pets 集中删除 cats 集中的所有猫。
+7.	printPets() 方法应显示 pets 集中的所有动物。每行显示一个动物。
+
+

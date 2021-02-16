@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task11.task1118"\n\n城市家庭
+
+为以下类创建一个适当的“继承链”：Pet、Cat、Dog 和 Car。
+
+
+Requirements:
+1.	Solution 类必须包含一个 public Pet 类。
+2.	Solution 类必须包含 public Cat 类。
+3.	Solution 类必须包含 public Dog 类。
+4.	Solution 类必须包含 public Car 类。
+5.	Cat 类应继承 Pet 类。
+6.	Dog 类应继承 Pet 类。
+7.	Pet 类不得继承其他类。
+8.	Car 类不得继承其他类。
+
+

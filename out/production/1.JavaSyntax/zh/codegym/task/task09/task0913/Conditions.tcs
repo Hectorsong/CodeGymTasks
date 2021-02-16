@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task09.task0913"\n\n异常只捕获异常。
+
+该方法会抛出两个继承 Exception 的异常和两个继承 RuntimeException 的异常：
+NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException.
+
+你要捕获 NullPointerException 和 FileNotFoundException，而不捕获 ArithmeticException 或 URISyntaxException。
+如何做到这一点呢？
+
+
+Requirements:
+1.	main 方法必须调用 method1。
+2.	main 方法必须捕获 NullPointerException 异常。
+3.	main 方法必须捕获 FileNotFoundException 异常。
+4.	main 方法不得捕获 ArithmeticException 异常。
+5.	main 方法不得捕获 URISyntaxException 异常。
+6.	不要更改 method1 方法。
+
+

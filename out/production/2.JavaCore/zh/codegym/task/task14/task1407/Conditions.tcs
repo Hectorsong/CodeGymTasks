@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task14.task1407"\n\n乐手和舞者
+
+1.考虑一下程序该怎么做。
+2.更改 haveFun 方法以使其调用：
+- play 方法：如果 person 是 Player。
+- dance 方法：如果 person 是 Dancer。
+
+
+Requirements:
+1.	Player 类必须实现 Person 接口。
+2.	Dancer 类必须实现 Person 接口。
+3.	如果传递的对象是 Player，则 haveFun 方法应调用 play 方法。
+4.	如果传递的对象是 Dancer，则 haveFun 方法应调用 dance 方法。
+5.	main 方法必须从键盘读取数据。
+6.	如果输入字符串为&ldquo;exit&rdquo;，则 main 方法应停止从键盘读取数据。
+
+

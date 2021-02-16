@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task13.task1317"\n\n好天气
+
+1.让 Today 类实现 Weather 接口。
+2.想想参数类型和 getWeatherType() 方法之间的关系。
+3.Weather 和 WeatherType 接口已在两份单独文件中实现。
+
+
+Requirements:
+1.	Today 类必须实现 Weather 接口。
+2.	Weather 接口的 getWeatherType 方法必须在 Today 类中实现。
+3.	getWeatherType 方法必须返回一个 String 值。
+4.	getWeatherType 方法必须返回变量类型的值。
+
+

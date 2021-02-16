@@ -1,0 +1,31 @@
+taskKey="zh.codegym.task.task15.task1527"\n\n请求解析器
+
+从控制台读取一个 URL 。
+显示所有参数的空格分隔列表（参数后面接“?”并用“&”隔开，例如“lvl=15”）。
+URL 至少包含 1 个参数。
+参数的显示顺序必须与 URL 中的顺序一样。
+如果存在 obj 参数，则将它的值传递到相关的 alert 方法。
+alert(double value) - 用于数字（小数含小数点）
+alert(String value) - 用于字符串
+注意，alert 方法必须在显示所有参数的列表之后调用。
+示例 1
+输入：
+http://codegym.cc/alpha/index.html?lvl=15&view&name=Amigo
+输出：
+lvl view name
+示例 2
+输入：
+http://codegym.cc/alpha/index.html?obj=3.14&name=Amigo
+输出：
+obj name
+double:3.14
+
+
+Requirements:
+1.	程序应该只从键盘读取一行。
+2.	Solution 类不能包含 static 字段。
+3.	程序必须根据任务条件在屏幕上显示数据。
+4.	如果 obj 参数可以正确转换为 double，则程序应调用含 double 参数的 alert 方法。
+5.	如果 obj 参数不能正确转换为 double，则程序应调用含 String 参数的 alert 方法。
+
+

@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task18.task1826"\n\n加密
+
+现在介绍加密/解密机制。
+程序使用以下参数集之一运行：
+-e fileName fileOutputName
+-d fileName fileOutputName
+其中：
+fileName 是要加密/解密的文件名。
+fileOutputName 是需要将加密/解密处理结果写入的文件名。
+-e 指示你需要加密数据。
+-d 指示你需要解密数据。
+
+
+Requirements:
+1.	你无需从控制台读取任何内容。
+2.	为作为第二个参数 (fileName) 传递的文件创建输入流。
+3.	为作为第三个参数 (fileOutputName) 传递的文件创建输出流。
+4.	在&ldquo;-e&rdquo;模式下，程序应加密 fileName 并将结果写入 fileOutputName。
+5.	在&ldquo;-d&rdquo;模式下，程序应解密 fileName 并将结果写入 fileOutputName。
+6.	必须关闭文件流。
+
+

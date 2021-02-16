@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task18.task1812"\n\n扩展 AmigoOutputStream
+
+使用包装类（装饰类）设计模式，扩展 AmigoOutputStream 的功能。
+在 QuestionFileOutputStream 类中，应为 close() 方法实现下列功能：
+1.显示“你确实要关闭流吗？是/否”。
+2.读取一行。
+3.如果读取的行是“是”，则关闭流。
+4.如果读取的行不是“是”，则不关闭流。
+
+
+Requirements:
+1.	不要更改 AmigoOutputStream。
+2.	QuestionFileOutputStream 类必须实现 AmigoOutputStream 接口。
+3.	QuestionFileOutputStream 类必须初始化构造方法中的 AmigoOutputStream 字段。
+4.	所有 QuestionFileOutputStream 方法必须委派给 AmigoOutputStream 对象。
+5.	close() 方法应询问用户&ldquo;你确实要关闭流吗？是/否&rdquo;。
+6.	close() 方法仅在它从控制台读取到回答&ldquo;是&rdquo;时关闭流。
+
+

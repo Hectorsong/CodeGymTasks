@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task03.task0301"\n\n分裂是好的
+
+实现 public static void div(int a, int b)。
+该方法应将第一个数字除以第二个数字，并显示 a 除以 b 得到的结果。
+所显示的结果应为整数。
+
+
+Requirements:
+1.	div 方法必须将 a 除以 b。
+2.	div 方法必须显示除法的结果。
+3.	main 方法应调用 3 次 div 方法。
+4.	main 方法不应调用屏幕输出方法。
+5.	程序应输出三个数字：2 1 0。每个数字独占一行。
+
+

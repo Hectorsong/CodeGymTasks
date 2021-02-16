@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task11.task1114"\n\n不断演变的生物
+
+编辑以下三个类：Fish、Lizard 和 Dinosaur。
+让 Lizard 继承 Fish，Dinosaur 继承 Lizard。
+
+
+Requirements:
+1.	Solution 类必须包含 public Fish 类。
+2.	Solution 类必须包含 public Lizard 类。
+3.	Solution 类必须包含 public Dinosau 类。
+4.	Lizard 类必须继承 Fish 类。
+5.	Dinosaur 类必须继承 Lizard 类。
+
+

@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task03.task0303"\n\n货币兑换
+
+为 convertEurToUsd 方法编写代码，以给定汇率将欧元转换为美元。
+使用 return 语句从 convertEurToUsd 方法返回结果。示例： return 123*435;
+在 main 方法中使用任意参数调用两次 convertEurToUsd 方法。
+显示结果，每次都在新的一行上显示。
+
+提示：
+使用以下公式计算结果：美元 = 欧元 * 汇率
+
+
+Requirements:
+1.	convertEurToUsd 方法必须用汇率乘以欧元数并返回结果。
+2.	main 方法必须使用任意参数调用两次 convertEurToUsd 方法。
+3.	main 方法应显示调用的结果，每次都在新的一行上显示。
+4.	convertEurToUsd 方法不应显示任何内容。
+
+

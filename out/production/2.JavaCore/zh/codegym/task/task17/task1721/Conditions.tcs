@@ -1,0 +1,26 @@
+taskKey="zh.codegym.task.task17.task1721"\n\n事务性
+
+让 joinData 方法成为事务性方法，即如果该方法失败，则数据不得更改。
+1.从控制台读取 2 个文件名。
+2.逐行从文件中读取。将第一个文件的内容读取到 allLines，将第二个文件的内容读取到 linesForRemoval。
+在 joinData 方法中：
+3.如果 allLines 列表包含 linesForRemoval 中的所有行，则从 allLines 列表中删除 linesForRemoval 中存在的所有含行。
+4.如果项目 3 中的条件未得到满足，则：
+4.1. 清除 allLines 中的数据
+4.2. 抛出 CorruptedDataException
+joinData 方法应在 main 中调用。处理 main 方法中的所有异常。
+别忘了关闭流。
+
+
+Requirements:
+1.	Solution 类必须包含名为 allLines 的 public static List&lt;String&gt; 字段。
+2.	Solution 类必须包含名为 linesForRemoval 的 public static List&lt;String&gt; 字段。
+3.	Solution 类必须包含可以抛出 CorruptedDataException 的 public void joinData() 方法。
+4.	程序应从控制台读取里两个文件的名称。
+5.	程序必须将第一个文件中的内容逐行读取到 allLines 列表。
+6.	程序必须将第二个文件中的内容逐行读取到 linesForRemoval 列表。
+7.	如果 allLines 列表包含 linesForRemoval 列表中的所有行，则 joinData 方法必须从 allLines 列表中删除 linesForRemoval 列表中的所有行。
+8.	如果 allLines 列表不包含 linesForRemoval 列表中的所有行，则 joinData 方法必须清除 allLines 列表并抛出 CorruptedDataException。
+9.	joinData 方法应在 main 中调用。
+
+

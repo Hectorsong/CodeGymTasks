@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task09.task0904"\n\n10 次调用的堆栈跟踪
+
+编写代码来获得 10 次深度调用的堆栈。不要更改 main 方法。
+
+
+Requirements:
+1.	这一类应该有 10 个方法（除了 main 方法之外）。
+2.	变量 stackTraceLength 必须最终等于 10。
+3.	每个方法必须调用另一个方法。
+4.	使用 Thread.currentThread().getStackTrace() 方法。
+
+

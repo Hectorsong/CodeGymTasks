@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task14.task1417"\n\n货币
+
+扩展程序操纵货币的能力。
+1.在 abstract Money 类中创建 private double 字段 amount。
+2.为字段 amount 创建 public getter (public double getAmount())，以便在 Money 类之外访问。
+3.在单独的文件中，创建 Euro、Ruble 以及 USD 类等 Money 类的后代。
+4.在 Euro、Ruble 和 USD 类中，实现 getCurrencyName 方法，该方法将返回货币的缩写 (String) (EUR、RUB、USD)。
+5.在 Euro、Ruble 和 USD 类中，实现 public 构造方法，它带一个参数并用这个参数调用基类（super 类）的构造方法。
+6.根据任务条件和程序的功能在 allMoney 列表中填充所有可能的货币对象。
+
+
+Requirements:
+1.	Money 类必须包含 private double 字段 amount。
+2.	Money 类必须实现含一个 double 参数的 public 构造方法，该构造方法将变量 amount 设置为传递的参数。
+3.	Money 类必须实现 public getAmount 方法，该方法返回字段 amount 的值。
+4.	Euro、Ruble 和 USD 类必须是 Money 类的后代，并且位于单独的文件中。
+5.	Euro、Ruble 和 USD 类必须实现 getCurrencyName 方法。
+6.	getCurrencyName 方法必须返回相应货币 (String) 的缩写名称。
+7.	Euro、Ruble 和 USD 类必须实现包含一个 double 参数的 getCurrencyName 方法。此构造方法必须通过相同参数调用父类的构造方法，从而设置 Money 类的 amount 字段值。
+
+

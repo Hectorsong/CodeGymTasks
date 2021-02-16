@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task03.task0316"\n\n转义字符
+
+显示以下文本（两行）：
+这是一个 Windows 路径："C:\Program Files\Java\jdk1.8.0_172\bin"
+这是一个 Java 字符串：\"C:\\Program Files\\Java\\jdk1.8.0_172\\bin\"
+
+提示：
+\” – 在文本中的此位置插入双引号字符。
+\\ – 在文本中的此位置插入反斜杠字符。
+
+
+Requirements:
+1.	该程序应输出文本。
+2.	必须显示两行。
+3.	第一行文本应为：这是一个 Windows 路径：&quot;C:\Program Files\Java\jdk1.8.0_172\bin&quot;
+4.	第二行文本应为：这是一个 Java 字符串：\&quot;C:\\Program Files\\Java\\jdk1.8.0_172\\bin\&quot;
+
+

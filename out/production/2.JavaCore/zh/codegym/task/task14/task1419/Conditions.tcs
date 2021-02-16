@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task14.task1419"\n\n引入异常
+
+在列表 exceptions 中填充十个 (10) 不同的异常。
+第一个异常已在 initExceptions 方法中实现。
+
+
+Requirements:
+1.	exceptions 列表必须包含 10 个元素。
+2.	exceptions 列表中的所有项目都必须是异常（Throwable 类的后代）。
+3.	exceptions 列表中的所有项目都必须唯一。
+4.	initExceptions 方法必须为 static。
+
+
