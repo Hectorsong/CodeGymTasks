@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task12.task1216"\n\n想飞吗？
+
+编写自己的 public CanFly 接口。
+在其中添加两个方法。
+
+
+Requirements:
+1.	Solution 类必须包含 CanFly 接口。
+2.	CanFly 接口必须为 public。
+3.	CanFly 接口必须包含两种方法。
+4.	CanFly 接口不得包含父级。
+
+

@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task17.task1709"\n\n建议
+
+不使用 synchronized，让所提的建议数等于接受的建议数。
+
+
+Requirements:
+1.	Solution 类必须包含 MakeProposal 线程。
+2.	Solution 类必须包含 AcceptProposal 线程。
+3.	Solution 类必须包含 public static int proposal。
+4.	程序不应包含 synchronized 方法或 synchronized 块。
+5.	int 变量 proposal 不应存储在本地缓存中。
+
+

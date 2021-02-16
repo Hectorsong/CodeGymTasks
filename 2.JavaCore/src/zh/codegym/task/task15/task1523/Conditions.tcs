@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task15.task1523"\n\n重载构造方法
+
+1.在 Solution 类中，创建含不同访问修饰符的 4 个构造方法。
+2.在一个单独的文件，创建 SubSolution 类并使其成为 Solution 类的子类。
+3.在 SubSolution 类中，使用 Alt+Insert -> Constructors 命令创建构造方法。
+4.更正 SubSolution 构造方法的访问修饰符，以便存在含不同访问修饰符（不包括 private）的 3 个构造方法。
+
+
+Requirements:
+1.	SubSolution 类应包含 3 个不同的构造方法。
+2.	Solution 类应包含 4 个不同的构造方法。
+3.	Solution 类必须使用所有可能的访问修饰符定义构造方法。
+4.	SubSolution 类必须使用除 private 之外的所有可能访问修饰符来定义构造方法。
+5.	Solution 类必须是 SubSolution 类的父类。
+
+

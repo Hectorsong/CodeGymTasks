@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task19.task1903"\n\n适配多个接口
+
+将 IncomeData 适配为Customer 和 Contact 接口。
+适配器类是 IncomeDataAdapter。
+先初始化 countries，然后再运行程序。在国家/地区代码和国家/地区名称之间对应：
+UA 乌克兰
+US 美国
+FR 法国
+如果有必要，使用零填充电话号码，使其长度达到 10 位数（请参见示例）。
+请注意人员的名字和姓氏的格式。
+
+
+Requirements:
+1.	Solution 类必须包含名为 countries 的 public static Map&lt;String, String&gt; 字段。
+2.	在 Solution 类中使用任务中提供的测试数据初始化 static 块中的 countries 字段。
+3.	IncomeDataAdapter 类必须实现 Customer 和 Contact 接口。
+4.	IncomeDataAdapter 类必须包含名为 data 的 private IncomeData 字段。
+5.	IncomeDataAdapter 类必须包含带 IncomeData 参数的构造方法。
+6.	使用接口注释中的提示，实现 IncomeDataAdapter 类中的 Customer 和 Contact 接口的方法。
+
+

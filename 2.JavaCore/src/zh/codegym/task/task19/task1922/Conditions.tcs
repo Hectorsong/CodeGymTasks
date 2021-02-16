@@ -1,0 +1,25 @@
+taskKey="zh.codegym.task.task19.task1922"\n\n搜索正确的行
+
+从控制台读取文件名。
+显示只包含 words 列表中 2 个字词的所有的文件行。
+关闭流。
+示例：
+words 包含字词 A、B 和 C
+行：
+C B A D // 包含 words 中的 3 个字词，拒绝
+A B A D // 包含 words 中的 3 个字词，拒绝
+D A D // 包含 words 中的 1 个字词，拒绝
+D A B D // 包含 words 中的 2 个字词，接受，显示
+doc catD A A D // 包含 words 中的 2 个字词，接受，显示
+
+
+Requirements:
+1.	Solution 类必须包含名为 words 的 public static List&lt;String&gt; 字段，该字段立即初始化。
+2.	Solution 类必须包含将三个或多个字词添加到 words 列表的 static 块。
+3.	程序必须从控制台读取文件名（使用 BufferedReader）。
+4.	在使用用于从控制台读取输入的 BufferedReader 后必须将其关闭。
+5.	程序必须读取文件内容（使用 FileReader）。
+6.	必须关闭文件输入流 (FileReader)。
+7.	程序应显示只包含 words 列表中 2 个字词的所有的文件行。
+
+

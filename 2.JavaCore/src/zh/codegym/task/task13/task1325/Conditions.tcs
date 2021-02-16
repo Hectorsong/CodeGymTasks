@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task13.task1325"\n\n编译程序
+
+1.修复 Fox 和 BigFox 类以使该程序编译。
+此任务不涉及创建基类的实例。
+2.不要更改 main 方法。
+
+
+Requirements:
+1.	Fox 类必须实现 Animal 接口。
+2.	Fox 类只能实现一个方法 (getName)。
+3.	Animal 接口必须声明一个 getColor 方法。
+4.	BigFox 类必须继承 Fox 类。
+5.	Fox 类必须为 abstract。
+
+

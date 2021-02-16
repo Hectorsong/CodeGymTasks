@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task16.task1603"\n\n一个列表和几个线程
+
+在 main 方法中，将 5 个线程添加到 static list。每个线程必须是与自己的 SpecialThread 对象协同工作的新 Thread 对象。
+
+
+Requirements:
+1.	在 main 方法中，创建 5 个 SpecialThread 对象。
+2.	在 main 方法中，创建 5 个 Thread 对象。
+3.	将 5 个不同的线程添加到列表中。
+4.	列表中的每个线程应与自己的 SpecialThread 对象协同工作。
+5.	SpecialThread 类的 run 方法应显示&ldquo;这是 SpecialThread 内的 run 方法&rdquo;。
+
+

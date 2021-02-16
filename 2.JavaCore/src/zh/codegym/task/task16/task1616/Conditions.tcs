@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task16.task1616"\n\n计算秒数
+
+1.编写 Stopwatch 线程中 run 方法的实现。
+2.Stopwatch 类必须计算从创建线程到输入字符串所经过的秒数。
+3.显示秒数。
+
+
+Requirements:
+1.	Stopwatch 类的 run 方法必须包含循环。
+2.	run 方法应调用 Thread.sleep(1000)。
+3.	run 方法应每 1 秒递增一次字段 seconds。
+4.	在中断 Stopwatch 线程后，run 方法必须显示秒数。
+5.	Stopwatch 类只能包含一个 run 方法。
+
+

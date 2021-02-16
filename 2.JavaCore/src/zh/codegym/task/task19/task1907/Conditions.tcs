@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task19.task1907"\n\n字词计数
+
+从控制台读取文件名。
+文件包含标点符号分隔的字词。
+将文件中“world”一词出现的次数输出到控制台。
+关闭流。
+
+
+Requirements:
+1.	程序必须从控制台读取文件名（使用 BufferedReader）。
+2.	在使用用于从控制台读取输入的 BufferedReader 后必须将其关闭。
+3.	程序必须读取文件的内容（使用带 String 参数的 FileReader 构造方法）。
+4.	必须关闭文件输入流 (FileReader)。
+5.	程序必须将文件中&ldquo;world&rdquo;一词出现的次数输出到控制台。
+
+

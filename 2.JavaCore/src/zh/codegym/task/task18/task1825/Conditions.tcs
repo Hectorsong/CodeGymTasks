@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task18.task1825"\n\n构建文件
+
+从各种片段构建文件。
+从控制台读取文件名。
+每个文件具有名称：<someName>.partN。
+例如，Lion.avi.part1、Lion.avi.part2、 ...、Lion.avi.part37。
+以随机顺序提供文件名。“结束”一词用于停止读取文件名。
+在所有文件所在的文件夹中，创建不带“part”后缀的文件，即，没有“.<partN>”。
+例如，Lion.avi.
+使用缓冲区将部分文件中的所有字节读取到所创建的文件中。
+以正确的顺序复制第一个，第一次复制第一个 part，然后第二个 part ...，最后，最后一个 part。
+关闭流。
+
+
+Requirements:
+1.	程序必须从控制台读取文件名，直到输入&ldquo;结束&rdquo;一词为止。
+2.	创建一个流，将不带&ldquo;part&rdquo;后缀（&ldquo;.&lt;partN&gt;&rdquo;）的文件写入含所有&ldquo;part&rdquo;文件的文件夹中。
+3.	将所有字节从 *.partN 文件复制到新文件。
+4.	应使用缓冲区来读取和写入。
+5.	必须关闭文件流。
+6.	不使用 static 变量。
+
+

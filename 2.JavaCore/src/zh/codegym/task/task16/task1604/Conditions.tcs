@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task16.task1604"\n\n显示堆栈跟踪
+
+1.创建一个“任务”（名为 SpecialThread 的 public static 类，该类实现 Runnable 接口)。
+2.SpecialThread 应显示自己的堆栈跟踪。
+提示：主线程已显示自己的堆栈跟踪。
+
+
+Requirements:
+1.	在 Solution 类中，添加名为 SpecialThread 的 public static 类。
+2.	SpecialThread 类应继承任何其他类。
+3.	SpecialThread 类必须实现 Runnabe 接口。
+4.	SpecialThread 类的 run 方法应显示自己的堆栈跟踪。
+
+

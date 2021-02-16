@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task13.task1318"\n\n读取文件
+
+1.从控制台读取文件名。
+2.在控制台中（在屏幕上）显示文件的内容。
+3.不要忘记释放资源。关闭文件输入和键盘输入流。
+
+
+Requirements:
+1.	程序必须从控制台读取文件名。
+2.	程序必须显示文件的内容。
+3.	你必须关闭文件输入流 (FileInputStream)。
+4.	BufferedReader 也必须关闭。
+
+

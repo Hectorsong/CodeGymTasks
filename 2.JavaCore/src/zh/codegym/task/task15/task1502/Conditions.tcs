@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task15.task1502"\n\nOOP：动物继承
+
+1.创建 public static Goose 类。
+2.创建 public static Dragon 类。
+3.让 Goose 类继承 BigAnimal 或 SmallAnimal。考虑一下哪个更合乎逻辑。
+4.让 Dragon 类继承 BigAnimal 或 SmallAnimal。考虑一下哪个更合乎逻辑。
+5.让 Goose 和 Dragon 类重写 String getSize() 方法，并尽可能让其可见。 、
+6.在 Goose 类中，getSize 方法应返回“鹅很小，”+ <父类>.getSize()。
+7.在 Dragon 类中，getSize 方法应返回“龙很大，”+ <父类>.getSize()。
+
+
+Requirements:
+1.	Goose 类必须在 Solution 类内部，并且必须为 static。
+2.	Dragon 类必须在 Solution 类内部，并且必须为 static。
+3.	Goose 类必须是 SmallAnimal 类的后代。
+4.	Dragon 类必须是 BigAnimal 类的后代。
+5.	在 Goose 类中，getSize 方法必须被重写。它应返回格式如下的字符串：&ldquo;鹅很小，&rdquo; + &lt;父类&gt;.getSize()。
+6.	在 Dragon 类中，getSize 方法必须被重写。它应返回格式如下的字符串：&ldquo;龙很大，&rdquo;+ &lt;父类&gt;.getSize()。
+7.	Goose 和 Dragon 类中重写的 getSize 方法的可见性必须尽可能地广泛。
+
+

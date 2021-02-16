@@ -1,0 +1,35 @@
+package zh.codegym.task.task11.task1104;
+
+/* 勤奋工作者
+编写以下四个类：Employee、Manager、CEO 和 Secretary。
+让 Employee、Manager、CEO 和 Secretary 类继承 Employee 类。
+Requirements:
+1. Solution 类必须包含 public Employee 类。
+2. Solution 类必须包含 public Manager 类。
+3. Solution 类必须包含 public CEO 类。
+4. Solution 类必须包含 public Secretary 类。
+5. Manager 类必须继承 Employee 类。
+6. CEO 类必须继承 Employee 类。
+7. Secretary 类必须继承 Employee 类。
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Manager extends Employee{
+
+    }
+
+    public class CEO extends Employee {
+
+    }
+
+    public class Employee {
+
+    }
+
+    public class Secretary extends Employee{
+
+    }
+}

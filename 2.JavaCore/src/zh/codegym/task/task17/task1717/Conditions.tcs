@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task17.task1717"\n\n多余的同步
+
+synchronized 关键字会大幅拖累程序的运行速度，因此在方法中删除不需要的 synchronized 语句。
+
+
+Requirements:
+1.	Solution 类的 append(CharSequence s) 方法不应为 synchronized。
+2.	Solution 类的 appendThis(Solution s) 方法必须为 synchronized。
+3.	Solution 类的 writeObject(java.io.ObjectOutputStream s) 方法必须为 synchronized。
+4.	Solution 类的 readObject(java.io.ObjectInputStream s) 方法不应为 synchronized。
+5.	Solution 类的 main(String[] args) 方法不应为 synchronized。
+6.	Solution 类中不应有 synchronized 块。
+
+

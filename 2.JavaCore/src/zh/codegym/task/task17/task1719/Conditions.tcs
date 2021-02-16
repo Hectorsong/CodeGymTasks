@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task17.task1719"\n\nApplicationContext
+
+ApplicationContext 类将由许多线程访问。
+确保没有丢失数据：想想将放置哪个关键字以及放在哪里。
+
+
+Requirements:
+1.	ApplicationContext 类必须是 abstract。
+2.	ApplicationContext 类必须包含名为 container 的 private Map&lt;String, GenericsBean&gt;。
+3.	在 getByName(String name) 方法中使用 synchronized（如果需要）。
+4.	在 removeByName(String name) 方法中使用 synchronized（如果需要）。
+
+

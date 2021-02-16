@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task15.task1507"\n\nOOP：方法重载
+
+以 8 种不同方式重载 printMatrix 方法。最后应出现 10 种不同的 printMatrix 方法。
+
+
+Requirements:
+1.	Solution 类必须实现 10 个含不同参数的 static printMatrix 方法。
+2.	Solution 类必须为 public。
+3.	Solution 类的所有方法必须为 static。
+4.	Solution 类的所有方法必须为public。
+
+

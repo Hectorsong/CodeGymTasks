@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task14.task1403"\n\n大厦和学校
+
+1.创建 Building 和 School 之间的正确继承关系。
+2.想想 getSchool 和 getBuilding 方法应返回的对象类型。
+3.更改 Building 或 School 对象的 null。
+注意：不要更改 getSchool 和 getBuilding 方法的签名。
+
+
+Requirements:
+1.	School 类应继承 Building 类。
+2.	getSchool 方法必须返回一个新的 School。
+3.	getBuilding 方法必须返回一个新的 Building。
+4.	School 类必须为 static。
+5.	Building 类必须为 static。
+
+

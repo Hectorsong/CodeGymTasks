@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task15.task1529"\n\n掌握 static 块
+
+1.在单独的文件中，创建 Plane 和 Helicopter 类，这两个类实现 CanFly 接口。
+2.Plane 类必须包含带 int 参数的构造方法（登机的乘客数）。
+3.在 Solution 类的 static reset 方法中：
+3.1.从控制台读取 String。
+3.2.如果该值是“helicopter”，则分配一个 Helicopter 对象到 static CanFly 字段 result。
+3.3.如果该值是“plane”，则读取第二个值（int，乘客数），然后分配一个 Plane 对象到 static CanFly 字段 result。
+4.在 static 块中，调用 reset 方法以初始化 CanFly 字段 result。
+5.使用 close() 方法关闭输入流。
+
+
+Requirements:
+1.	Plane 类必须位于单独的文件中，并实现 CanFly 接口。
+2.	Helicopter 类必须位于单独的文件中，并实现 CanFly 接口。
+3.	Plane 类必须包含带 int 参数的构造方法。
+4.	Solution 类必须实现 public static void reset() 方法。
+5.	reset 方法应从键盘读取行。
+6.	如果输入字符串是&ldquo;helicopter&rdquo;，则 Helicopter 对象应存储在变量 result 中。
+7.	如果输入字符串是&ldquo;plane&rdquo;，则 Plane 对象应存储在变量 result 中。
+8.	Solution 类的字段 result 必须通过调用 reset 方法在 static 块中初始化。
+
+

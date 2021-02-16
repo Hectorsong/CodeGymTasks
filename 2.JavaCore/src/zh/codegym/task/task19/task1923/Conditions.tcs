@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task19.task1923"\n\n包含数字的字词
+
+main 方法的第一个参数是 file1，第二个参数是 file2。
+file1 包含多个行，行中包含空格分隔的字词。
+将包含数字的所有字词写入 file2，例如，a1 或 abc3d。使用空格分隔字词。
+关闭流。
+
+
+Requirements:
+1.	程序不得从控制台读取数据。
+2.	程序必须读取第一个文件的内容（使用带 String 参数的 FileReader 构造方法）。
+3.	必须关闭文件输入流 (FileReader)。
+4.	程序应将第一个文件中包含数字的字词写入第二个文件（使用 FileWriter）。
+5.	必须关闭文件输出流 (FileWriter)。
+
+

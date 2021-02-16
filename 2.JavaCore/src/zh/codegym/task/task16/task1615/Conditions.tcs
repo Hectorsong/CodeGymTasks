@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task16.task1615"\n\n机场
+
+1.弄明白程序的功能。
+2.更正 takeOff 方法。目前，起飞所需的时间很长很长。起飞所需时间应为 100 毫秒。
+3.比照 takeOff 方法实现 waitForTakeoff 方法。等待时间不应比起飞时间长。
+
+
+Requirements:
+1.	takeOff 方法应运行约 100 毫秒。
+2.	waitForTakeoff 方法应运行约 100 毫秒。
+3.	main 方法应创建 3 个飞机。
+4.	Solution 类必须包含名为 Plane 的内部类。
+5.	Solution 类必须包含名为 Runway 的内部类。
+
+

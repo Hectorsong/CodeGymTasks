@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task19.task1905"\n\n巩固适配器
+
+将 Customer 和 Contact 适配为 RowItem。
+适配器类是 DataAdapter。
+先初始化 countries，然后再运行程序。在国家/地区代码和国家/地区名称之间对应：
+UA 乌克兰
+US 美国
+FR 法国
+
+
+Requirements:
+1.	Solution 类必须包含名为 countries 的 public static Map&lt;String, String&gt; 字段。
+2.	在 Solution 类中使用任务中提供的测试数据初始化 static 块中的 countries 字段。
+3.	Solution 类必须包含 RowItem 接口。
+4.	Solution 类必须包含 Contact 接口。
+5.	Solution 类必须包含 Customer 接口。
+6.	DataAdapter 类必须实现 RowItem 接口。
+7.	DataAdapter 类必须包含两个 private 字段：Customer customer 和 Contact contact。
+8.	DataAdapter 类必须包含带 (Customer customer, Contact contact) 参数的构造方法。它必须初始化 contact 和 customer 字段。
+9.	使用接口注释中的提示，实现 DataAdapter 类中的 RowItem 接口方法。
+
+

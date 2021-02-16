@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task14.task1404"\n\n猫
+
+1.从控制台读取 strings（参数），直到用户输入了空的 string (Enter)。
+2.每个参数对应一个猫的名称。
+对于每个参数：
+3.创建 Cat 对象，等于getCatByKey(String parameter) 中的猫。
+4.显示 cat.toString() 的结果。
+
+
+Requirements:
+1.	程序必须从键盘读取数据。
+2.	输入空字符串后，程序应停止读取数据。
+3.	该程序应显示每只猫的描述 (cat.toString)。
+4.	程序必须使用 getCatByKey 方法为输入的每个猫名称（每个从键盘读取的字符串）创建一个 Cat 对象。
+
+

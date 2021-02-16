@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task15.task1508"\n\nOOP：方法重载 - 消除多余的实现
+
+1.想想将调用 print 方法的哪些实现。
+2.删除 print 方法多余的实现。
+
+
+Requirements:
+1.	除了 main 方法之外，Solution 类应只有一个 print 方法（含正确的参数！）。
+2.	print 方法必须为 public。
+3.	print 方法必须为 static。
+4.	程序应显示&ldquo;我将成为 Java 程序员！&rdquo;。
+
+

@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task17.task1705"\n\n花园中的快乐时光
+
+1.创建 public void addFruit(int index, String fruit) 方法，该方法将 fruit 参数添加到 fruits 列表的位置 index 处。
+2.创建 public void removeFruit(int index) 方法，该方法删除 fruits 中位置 index 处的元素。
+3.创建 public void addVegetable(int index, String vegetable) 方法，该方法将 vegetable 参数添加到 vegetables 列表的位置 index 处。
+4.创建 public void removeVegetable(int index) 方法，该方法从 vegetables 中删除位置 index 处的元素。
+5.Garden 类将由线程使用。确保所有方法都锁定 this。
+6.用尽可能少的代码实现 this。
+
+
+Requirements:
+1.	Garden 类必须包含 public void addFruit(int index, String fruit) 方法。
+2.	Garden 类必须包含 public void removeFruit(int index) 方法。
+3.	Garden 类必须包含 public void addVegetable(int index, String vegetable) 方法。
+4.	Garden 类必须包含 public void removeVegetable(int index) 类。
+5.	addFruit(int index, String fruit) 方法必须将 fruit 参数添加到 fruits 列表的位置 index 处。
+6.	removeFruit(int index) 方法必须从 fruits 中删除位置 index 处的元素。
+7.	addVegetable(int index, String vegetable) 方法应将 vegetable 参数添加到 vegetables 列表的位置 index 处。
+8.	removeVegetable(int index) 方法必须从 vegetables 中删除位置 index 处的元素。
+9.	Garden 类的所有方法必须锁定 this（即这些方法必须为 synchronized）。
+
+

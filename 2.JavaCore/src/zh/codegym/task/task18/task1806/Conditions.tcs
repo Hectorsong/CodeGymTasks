@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task18.task1806"\n\n修复错误
+
+根据要求修复功能。
+程序应显示：
+1.一次将一个文件的所有字节写入另一个文件。
+2.关闭 IO 流。
+提示：
+有 4 个错误。
+
+
+Requirements:
+1.	程序必须使用 FileInputStream 和 FileOutputStream 类。
+2.	程序应一次将一个文件的所有字节写入另一个文件。
+3.	必须关闭 FileInputStream 和 FileOutputStream。
+4.	你需要修复 4 个错误。
+
+

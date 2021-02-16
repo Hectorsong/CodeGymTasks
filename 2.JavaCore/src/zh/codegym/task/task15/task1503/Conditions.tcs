@@ -1,0 +1,25 @@
+taskKey="zh.codegym.task.task15.task1503"\n\nOOP：汽车
+
+1.在输出中只能使用 Constants 类中的变量。
+2.在 Ferrari 类中，实现 printlnDesire 方法以使其显示“我想开法拉利”。
+3.在 GeoMetro 类中，实现 printlnDesire 方法以使其显示“我想开雪弗兰”。
+4.创建 public static LuxuryCar 类。
+5.创建 public static CheapCar 类。
+6.让 Ferrari 和 GeoMetro 类继承 CheapCar 或 LuxuryCar。考虑因材施教。
+7.在 LuxuryCar 类中，实现 printlnDesire 方法以使其显示“我想开豪车”。
+8.在 CheapCar 类中，实现 printlnDesire 方法以使其显示“我想开便宜车”。
+9.在 LuxuryCar 和 CheapCar 类中，为 printlnDesire 方法实现不同的访问修饰符， 以扩展 Ferrari 和 GeoMetro 类中的可见性。
+
+
+Requirements:
+1.	Solution 类必须包含 public static LuxuryCar 类。
+2.	Solution 类必须包含 public static CheapCar 类。
+3.	Ferrari 类必须是 LuxuryCar 类的后代。
+4.	GeoMetro 类必须是 CheapCar 类的后代。
+5.	LuxuryCar 类中的 printlnDesire 方法应显示&ldquo;我想开豪车&rdquo;。
+6.	CheapCar 类中的 printlnDesire 方法应显示&ldquo;我想开便宜车&rdquo;。
+7.	Ferrari 类中的 printlnDesire 方法应显示&ldquo;我想开法拉利&rdquo;。
+8.	GeoMetro 类中的 printlnDesire 方法应显示&ldquo;我想开雪佛兰&rdquo;。
+9.	Ferrari 和 GeoMetro 类中的 printlnDesire 方法的可见性应比其父类中的宽。
+
+

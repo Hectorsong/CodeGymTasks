@@ -1,0 +1,26 @@
+taskKey="zh.codegym.task.task14.task1411"\n\nUser、loser、coder 和 programmer
+
+1.从键盘输入几个字符串（键）[在循环中]。
+允许输入以下字符串（键）：“user”、“loser”、“coder”、“programmer”。
+读取任何与上述内容不匹配的字符串后停止读取。
+2.对于输入的字符串：
+2.1.创建相应的对象 [参见 Person.java]，例如创建“user”字符串的 User 对象。
+2.2.将此对象传递到 doWork 方法。
+3.编写 doWork 方法的实现，其：
+3.1.在所传递对象上调用 live() 方法（如果人是 User）。
+3.2.调用 doNothing() 方法（如果人是 Loser）。
+3.3.调用 writeCode() 方法（如果人是 Coder）。
+3.4.调用 enjoy() 方法（如果人是 Programmer）。
+
+
+Requirements:
+1.	main 方法必须从键盘读取字符串。
+2.	输入的字符串一旦与以下允许的字符串不匹配（&ldquo;user&rdquo;、&ldquo;loser&rdquo;、&ldquo;coder&rdquo;、&ldquo;programmer&rdquo;)，则 main 方法应停止从键盘读取字符串。
+3.	对于每个正确输入的字符串（&ldquo;user&rdquo;、&ldquo;loser&rdquo;、&ldquo;coder&rdquo;、&ldquo;programmer&rdquo;），调用包含相应 Person 对象作为参数的 doWork 方法。
+4.	Solution 类必须实现包含一个 Person 参数的 doWork 方法。
+5.	如果对象是 User，doWork 方法应在所传递的对象上调用 live() 方法。
+6.	如果对象是 Loser，doWork 方法应在所传递的对象上调用 doNothing() 方法。
+7.	如果对象是 Coder，doWork 方法应在所传递的对象上调用 writeCode() 方法。
+8.	如果对象是 Programmer，doWork 方法应在所传递的对象上调用 enjoy() 方法。
+
+

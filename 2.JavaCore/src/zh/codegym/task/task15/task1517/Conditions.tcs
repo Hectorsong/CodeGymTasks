@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task15.task1517"\n\nStatic 修饰符和异常
+
+在 static 块中，抛出异常
+这会导致类停止加载，并显示如下错误信息，而非变量 B 的值
+Exception in thread "main" java.lang.ExceptionInInitializerError
+at java.lang.Class.forName0(Native Method)
+at java.lang.Class.forName(Class.java:186)
+at com.intellij.rt.execution.application.AppMain.main(AppMain.java:113)
+Caused by: java.lang.RuntimeException:
+at com.codegym.task.task15.task1517.Solution.(Solution.java:22)
+提示：如果看到以下情况，请使用 Google 查找原因：
+java: initializer must be able to complete normally
+java: unreachable statement
+
+
+Requirements:
+1.	异常 (Exception) 必须发生在 Solution 类的 static 块中。
+2.	程序不应显示任何内容（发生异常的自动消息除外）。
+3.	程序不得从键盘读取数据。
+4.	Solution 类必须为 public。
+
+

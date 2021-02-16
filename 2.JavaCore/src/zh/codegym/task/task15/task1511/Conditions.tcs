@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task15.task1511"\n\n最简单的代码：第 1 部分
+
+简化代码：删除编译器自动添加的全部继承和实现
+另注：me 和 zapp 对象存在 has-a（即组合）关系：https://en.wikipedia.org/wiki/Has-a
+
+
+Requirements:
+1.	SpecificSerializable 接口应扩展 Serializable 接口。
+2.	JavaDev 类必须实现 SpecificSerializable 接口。
+3.	该代码不应包含涉及 Object 类的显式继承（扩展 Object）。
+4.	JuniorJavaDev 类不得显式继承 SpecificSerializable 接口。
+
+

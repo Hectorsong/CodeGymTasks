@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task15.task1505"\n\nOOP：解决继承问题
+
+更正 containsBones 方法以及所有关联逻辑，让：
+1.程序的行为保持不变。
+2.containsBones 方法必须返回一个 Object、“是”（而非 true）和“否”（而非 false）值。
+
+
+Requirements:
+1.	BodyPart 类的 containsBones 方法必须返回一个 Object。
+2.	Finger 类必须是 BodyPart 类的后代。
+3.	Finger 类的 containsBones 方法必须返回一个 Object。
+4.	BodyPart 类的 containsBones 方法应返回&ldquo;是&rdquo;。
+5.	如果 BodyPart 类的 containsBones 方法返回&ldquo;是&rdquo;并且 isArtificial 标志为 false，则 Finger 类的 containsBones 方法应返回&ldquo;是&rdquo;。如果不满足此条件，则返回&ldquo;否&rdquo;。
+6.	如果 containsBones 方法针对身体部分返回&ldquo;是&rdquo;，则 BodyPart 类的 toString 方法应返回一个格式如下的字符串：&ldquo;&lt;名称&gt;（身份部位的名称）包含骨骼&rdquo;。如果返回&ldquo;否&rdquo;，则字符串的格式应为&ldquo;&lt;名称&gt;（身体部位的名称）不包含骨骼&rdquo;。
+
+

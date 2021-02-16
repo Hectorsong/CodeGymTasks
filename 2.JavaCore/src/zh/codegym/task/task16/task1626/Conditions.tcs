@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task16.task1626"\n\n遵循某种模式
+
+弄明白程序是如何工作的。
+与 CountdownRunnable 类似，创建一个 CountUpRunnable 线程，以计数的顺序显示值：1 到 number。
+
+
+Requirements:
+1.	CountUpRunnable 类必须实现 Runnable 接口。
+2.	CountUpRunnable 类必须包含不带参数的 public run 方法。
+3.	CountUpRunnable 类的 run 方法应运行约 2.5 秒。
+4.	CountUpRunnable 类的 run 方法应每半秒显示线程的名称，冒号和计数器的值，值的范围为从 1 到 5（例如：&ldquo;增加：1&rdquo;）。
+5.	CountUpRunnable 类的 run 方法应调用 Thread.sleep(500)。
+
+

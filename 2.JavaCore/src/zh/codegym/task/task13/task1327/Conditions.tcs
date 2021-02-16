@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task13.task1327"\n\n萝卜
+
+大萝卜：
+1.让 Person 类实现 TurnipItem 接口。
+2.在 Person 类中实现 pull(Person person) 方法，以便它显示类似于‘<名称>在<人>后面’的短语。
+示例：
+奶奶在爷爷后面
+爷爷在萝卜后面
+3.修复 TurnipStory 类的 tell 方法中循环的逻辑错误。
+4.运行 main 方法，开始讲故事咯！
+
+
+Requirements:
+1.	Person 类必须实现 TurnipItem 接口。
+2.	Person 类必须包含具有一个 Person 参数的 pull 方法 。
+3.	Person 类的 pull 方法必须显示类似于&lsquo;&lt;名称&gt;在&lt;人&gt;后面&rsquo;的短语。例如：奶奶在爷爷后面。
+4.	main 方法应在屏幕上显示压缩版大萝卜。
+
+

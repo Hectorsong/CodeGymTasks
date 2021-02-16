@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task13.task1315"\n\n汤姆、杰瑞和斯派克
+
+1.创建 Dog、Cat 和 Mouse 类。
+2.实现所添加类的接口，考虑如下条件：
+- 猫可以移动，可以吃别人，也可能被吃。
+- 老鼠可以移动，也可能被吃。
+- 狗可以移动，可以吃别人。
+
+
+Requirements:
+1.	Cat 类必须在 Solution 类内部。
+2.	Dog 类必须在 Solution 类内部。
+3.	Mouse 类必须在 Solution 类内部。
+4.	猫可以移动、可以吃别人，也可以被吃。
+5.	老鼠可以移动并被吃掉。
+6.	狗可以移动和吃别人。
+
+

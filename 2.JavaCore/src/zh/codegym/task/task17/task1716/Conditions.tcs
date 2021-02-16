@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task17.task1716"\n\n同步的方法
+
+仅在需要的方法中设置 synchronized 修饰符。
+Solution 对象将由线程使用。
+
+
+Requirements:
+1.	在 method0 中使用 synchronized（如果需要）。
+2.	在 method1 中使用 synchronized（如果需要）。
+3.	在 method2 中使用 synchronized（如果需要）。
+4.	在 method3 中使用 synchronized（如果需要）。
+5.	在 method4 中使用 synchronized（如果需要）。
+6.	在 method5 中使用 synchronized（如果需要）。
+7.	在 method6 中使用 synchronized（如果需要）。
+8.	在 method7 中使用 synchronized（如果需要）。
+
+

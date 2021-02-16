@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task11.task1110"\n\n别忘了封装
+
+仔细检查方法，然后添加缺少的字段 。
+
+
+Requirements:
+1.	Cat 类必须包含 String 字段 name。
+2.	Cat 类必须具有 int 字段 age。
+3.	Cat 类必须具有 int 字段 weight。
+4.	Cat 类必须具有 int 字段 speed。
+5.	Cat 类必须有 4 个字段。
+6.	Cat 类的所有字段都必须是 private。
+
+

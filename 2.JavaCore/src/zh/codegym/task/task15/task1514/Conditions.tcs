@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task15.task1514"\n\nStatic 修饰符：第 1 部分
+
+在 static 块中，初始化含 5 个不同键值对的 labels。
+
+
+Requirements:
+1.	Solution 类只能包含一个方法 (main)。
+2.	Solution 类应声明一个 static Map 字段 labels。
+3.	字段 labels 必须在 static 块中填充 5 个不同键值对。
+4.	main 方法应显示 labels 内容。
+
+

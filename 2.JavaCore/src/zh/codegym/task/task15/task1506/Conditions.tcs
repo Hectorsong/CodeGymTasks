@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task15.task1506"\n\n多余的内容
+
+1.程序应显示如下：
+这是一个 double
+这是一个 Object
+这是一个 double
+这是一个 Integer
+这是一个 double
+2.删除所有不必要的方法
+
+
+Requirements:
+1.	Solution 类必须保留包含一个 Integer 参数的 print 方法。
+2.	Solution 类必须保留包含一个 Object 参数的 print 方法。
+3.	Solution 类必须保留包含一个 double 参数的 print 方法。
+4.	屏幕输出必须匹配任务条件。
+
+

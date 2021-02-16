@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task16.task1620"\n\n一生万物，万物归一
+
+1.弄明白程序是如何工作的。
+1.1.注意 Water 对象对所有线程都是相同的。
+2.实现 ourInterrupt() 方法，以便中断 threads 列表中的所有方法。
+3.更正 run() 方法中变量的值：
+3.1. isCurrentThreadInterrupted 必须与当前线程的 isInterrupted() 方法的值相同。
+3.2. threadName 必须与当前线程的 getName() 方法（在 Thread 类中实现）的值相同。
+
+
+Requirements:
+1.	ourInterrupt() 方法必须中断 threads 列表中的所有线程。
+2.	run() 方法必须使用 Thread.currentThread 获取当前线程。
+3.	run() 方法必须在当前线程上调用 isInterrupted() 方法。
+4.	run() 方法必须在当前线程上调用 getName() 方法。
+5.	main() 方法应运行约 3 秒。
+
+

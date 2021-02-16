@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task13.task1321"\n\n修复错误
+
+1.在类和接口中对继承进行处理，以便程序按应有的方式如期编译。
+2.Hobby 类必须继承 Desire 和 Dream 接口。
+
+
+Requirements:
+1.	Hobby 类必须实现 Desire 接口。
+2.	Hobby 类必须实现 Dream 接口。
+3.	Hobby 类必须包含名为 INDEX 的 static 变量。
+4.	Hobby 类的 toString 方法必须递增 INDEX 变量并将其作为 String 值返回。
+
+

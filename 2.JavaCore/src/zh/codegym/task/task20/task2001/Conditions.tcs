@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task20.task2001"\n\n读取并写入文件Human
+
+实现 Human 类的文件 IO 的逻辑。
+Human 类的 name 字段不能为空。
+main 方法仅供你使用，不涉及测试解决方案。
+
+
+Requirements:
+1.	在 assets 列表为空时，save/load 方法中的读/写逻辑必须工作正常。
+2.	在 name 字段和 assets 列表不为空时，save/load 方法中的读/写逻辑必须工作正常。
+3.	Solution.Human 类不应支持 Serializable 接口。
+4.	Solution.Human 类必须为 public。
+5.	Solution.Human 类不应支持 Externalizable 接口。
+
+

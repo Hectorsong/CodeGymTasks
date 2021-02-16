@@ -1,0 +1,38 @@
+taskKey="zh.codegym.task.task17.task1711"\n\nCRUD 2
+
+批处理 CrUD: 多个创建、更新、删除。
+程序使用以下参数集之一运行：
+-c 姓名1 性别1 生日1 姓名2 性别2 生日2 ...
+-u id1 姓名1 性别1 生日1 id2 姓名2 性别2 生日2 ...
+-d id1 id2 id3 id4 ...
+-i id1 id2 id3 id4 ...
+参数值：
+姓名 (String)
+性别（“m”或“f”)
+生日（生日采用以下格式：04 15 1990）
+-c（将具有指定参数的所有人员添加到 allPeople 的末尾；以相应的顺序显示其 id）
+-u（更新具有指定 id 的人员的相应数据）
+-d（对具有指定 id 的人员执行逻辑删除；将其所有数据替换为 null）
+-i（显示具有指定 id 的所有人员的有关信息：姓名 性别 生日）
+id 与列表中的索引相对应。
+生日格式采用 Apr 15 1990。
+所有人员都应存储在 allPeople 中。
+显示数据的顺序与输入数据的顺序一致。
+确保程序是线程安全的（多个线程一起正常工作，不会中断数据。）
+使用 Locale.ENGLISH 作为 SimpleDateFormat 的第二个参数。
+具有两个 id 的 -i 参数的示例输出：
+Washington m Apr 15 1990
+Ross f Apr 25 1997
+
+
+Requirements:
+1.	Solution 类必须包含名为 allPeople 的 public volatile List&lt;Person&gt; 字段。
+2.	Solution 类必须包含将两个人员添加到 allPeople 的 static 块。
+3.	使用 -c 参数，程序必须将具有指定参数的所有人员添加到 allPeople 列表末尾，并显示每个人员的 id。
+4.	使用 -u 参数，程序必须在 allPeople 列表中更新具有指定 id 的人员的数据。
+5.	使用 -d 参数，程序必须在 allPeople 列表中对具有指定 id 的人员执行逻辑删除。
+6.	使用 -i 参数时，程序应按照任务中指定的格式显示所有具有指定 id 的人员的有关数据。
+7.	Solution 类的 main 方法必须包含基于 args[0] 的 switch 语句。
+8.	switch 语句中的每个 case 标签都必须具有针对 allPeople 的同步块。
+
+

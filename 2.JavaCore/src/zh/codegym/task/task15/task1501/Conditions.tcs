@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task15.task1501"\n\nOOP：安排接口
+
+1.尽可能将 Movable、Sellable 和 Discountable 接口添加到 Clothes 类。
+2.实现他们的方法。
+
+
+Requirements:
+1.	Clothes 类必须支持 Movable 接口。
+2.	Clothes 类必须支持 Sellable 接口。
+3.	Clothes 类必须支持 Discountable 接口。
+4.	Clothes 类必须实现 isMovable 方法。
+5.	Clothes 类必须实现不带参数的 getAllowedAction 方法。
+6.	Clothes 类必须实现带一个 String 参数的 getAllowedAction 方法。
+
+

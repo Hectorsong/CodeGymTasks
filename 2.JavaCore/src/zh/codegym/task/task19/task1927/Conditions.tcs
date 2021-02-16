@@ -1,0 +1,28 @@
+taskKey="zh.codegym.task.task19.task1927"\n\n上下文广告
+
+使用你自己的 Reader 包装类替换 main 方法中 System.out 对象。
+你的 Reader 包装类应每隔一次调用 println 就显示一次上下文广告。
+调用 testString 的现有 printSomething() 方法。
+将 System.out 变量重新恢复为原始流。
+广告文本：“CodeGym - 在线 Java 课程”
+示例输出：
+第一
+第二
+CodeGym - 在线 Java 课程
+第三
+第四
+CodeGym - 在线 Java 课程
+第五
+
+
+Requirements:
+1.	Solution 类必须包含 TestString 类。
+2.	Solution 类必须包含立即初始化的名为 testString 的 public static TestString 字段。
+3.	TestString 类必须包含 public void printSomething() 方法。
+4.	TestString 类的 printSomething() 方法必须显示下列行： &ldquo;第一&rdquo;，&ldquo;第二&rdquo;，&ldquo;第三&rdquo;，&ldquo;第四&rdquo;，&ldquo;第五&rdquo;。
+5.	Solution 类的 main(String[] args) 方法必须创建 PrintStream 对象（使用带 ByteArrayOutputStream 参数的 PrintStream 构造方法）。
+6.	Solution 类的 main(String[] args) 方法应替换，然后恢复控制台输出流 (System.out)。
+7.	Solution 类的 main(String[] args) 方法必须调用 testString 的 printSomething() 方法。
+8.	Solution 类的 main(String[] args) 方法必须根据任务条件修改并显示 printSomething() 方法的行输出（通过添加上下文广告）。
+
+

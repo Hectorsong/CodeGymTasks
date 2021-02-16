@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task16.task1606"\n\n加入：在正确的时间、正确的位置
+
+想想你在哪里和在什么对象上需要调用 join 方法
+来首先显示 firstThread 的结果，然后显示 secondThread 的结果。
+在正确的位置调用 join 方法。
+示例输出：
+firstThread :String 1
+firstThread :String 2
+...
+firstThread :String 19
+firstThread :String 20
+secondThread :String 1
+...
+secondThread :String 20
+
+
+Requirements:
+1.	main 方法必须调用 firstThread 上的 join 方法。
+2.	main 方法不应调用 secondThread 上的 join 方法。
+3.	main 方法不应调用 System.out.println 或 System.out.print()。
+4.	程序的输出必须与任务中的示例匹配。
+
+

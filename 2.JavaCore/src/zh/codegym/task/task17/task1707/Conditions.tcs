@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task17.task1707"\n\nIMF
+
+单例模式：方法中的同步。
+IMF 类含义是国际货币基金组织。
+在 getFund 方法内部创建 synchronized 块。
+在 synchronized 块内，初始化 imf，以便 getFund 方法始终返回相同的对象。
+
+
+Requirements:
+1.	IMF 类必须包含 private static IMF 字段 imf。
+2.	IMF 类必须包含 private 构造方法。
+3.	IMF 类必须包含 public static IMF getFund() 方法。
+4.	getFund() 方法必须有 synchronized 块。
+5.	synchronized 块必须初始化 imf。
+6.	getFund() 方法必须始终返回相同的对象。
+
+

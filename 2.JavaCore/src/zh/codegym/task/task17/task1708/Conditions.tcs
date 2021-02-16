@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task17.task1708"\n\n所有项目使用的注释
+
+Note 类将由线程使用。
+因此，你需要确保 notes 列表位于共享内存中，即线程不会将其缓存在其本地内存中。
+
+
+Requirements:
+1.	Note 类必须包含 addNote(int index, String note) 方法。
+2.	Note 类必须包含 removeNote(int index) 方法。
+3.	Note 类必须包含 public List&lt;String&gt; notes。
+4.	List&lt;String&gt; notes 字段不应存储在本地缓存中。
+
+

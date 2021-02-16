@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task18.task1823"\n\n线程和字节
+
+从控制台读取文件名，直到输入“退出”为止。
+将文件名传递到 ReadThread 线程。
+ReadThread thread 应找到文件中出现最频繁的字节，并将其添加到 resultMap，
+其中，String 参数是文件名，Integer 参数是相关字节。
+关闭流。
+
+
+Requirements:
+1.	程序必须控制台读取文件名，直到输入&ldquo;退出&rdquo;为止。
+2.	针对每个文件创建并启动 ReadThread 线程。
+3.	在每个线程启动后，ReadThread 应创建其自己的文件输入流。
+4.	然后，每个线程必须在其文件中找到出现最频繁的字节并将其添加到 resultMap。
+5.	必须关闭每个线程的文件输入流。
+
+

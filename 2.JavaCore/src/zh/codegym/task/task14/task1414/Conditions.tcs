@@ -1,0 +1,27 @@
+taskKey="zh.codegym.task.task14.task1414"\n\n电影工厂
+
+从控制台读取以通过类比扩展功能：
+1.弄明白程序的功能。
+2.所有类都必须位于 Solution 类中。
+3.添加 Cartoon 和 Thriller 类。
+4.了解如何使用键“soapOpera”获取 SoapOpera 对象。
+按照用于获取 SoapOpera 对象的模式：
+5.在 MovieFactory.getMovie 中添加使用键“cartoon”获取 Cartoon 对象的能力。
+6.在 MovieFactory.getMovie 中添加使用键“thriller”获取 Thriller 对象的能力。
+7.从控制台读取几个键（字符串）。
+7.1.所输入的字符串与如下内容不匹配时停止读取字符串：“cartoon”、“thriller”、“soapOpera”。
+8.创建 Movie movie 变量，并针对每个输入的字符串（键）：
+8.1.使用 MovieFactory.getMovie 获取对象并将其赋给变量 movie。
+8.2.显示调用 movie.getClass().getSimpleName() 的结果。
+
+
+Requirements:
+1.	Cartoon 和 Thriller 类都必须为 static 并位于 Solution 类中。
+2.	如果将&ldquo;cartoon&rdquo;作为参数传递，则 MovieFactory.getMovie 方法必须返回 Cartoon 对象。
+3.	如果将&ldquo;thriller&rdquo;作为参数传递，则 MovieFactory.getMovie 方法必须返回 Thriller 对象。
+4.	main 方法必须从键盘读取字符串。
+5.	如果输入字符串无效（即除了&ldquo;cartoon&rdquo;、&ldquo;thriller&rdquo;或&ldquo;soapOpera&rdquo;之外的内容），则 main 方法应停止从键盘读取字符串。
+6.	对于输入的每个字符串（包括无效字符串），必须调用 MovieFactory.getMovie 方法。
+7.	对于输入的每个有效字符串，您需要显示 MovieFactory.getMovie 方法返回的对象类型的简单名称 (movie.getClass().getSimpleName())。
+
+

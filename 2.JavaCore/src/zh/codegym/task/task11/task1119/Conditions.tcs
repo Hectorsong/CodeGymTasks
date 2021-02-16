@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task11.task1119"\n\n正确的继承链：第 4 部分
+
+为以下类创建一个适当的“继承链”：House、Cat、Dog 和 Car。
+
+
+Requirements:
+1.	Solution 类必须包含 public House 类。
+2.	Solution 类必须包含 public Cat 类。
+3.	Solution 类必须包含 public Dog 类。
+4.	Solution 类必须包含 public Car 类。
+5.	正确继承 House 类。
+6.	正确继承 Cat 类。
+7.	正确继承 Dog 类。
+8.	正确继承 Car 类。
+
+

@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task17.task1722"\n\n我们来计数
+
+1.进行计数以便针对数组的所有元素计算结果，不使用 main(String[] args) 方法中的 Thread.sleep。
+2.更正 synchronized 块，以便使用 1 填充 values 数组。
+
+
+Requirements:
+1.	Solution 类必须包含 Counter 类。
+2.	Counter 类必须是线程。
+3.	Counter 类的 run() 方法必须包含 synchronized 块。
+4.	run() 方法的 synchronized 块不得锁定 this。
+5.	Solution 类的 main(String[] args) 方法不应使用 Thread.sleep()。
+6.	对于每个线程，在 Solution 类的 main(String[] args) 方法中，使用等待线程结束的方法。
+
+

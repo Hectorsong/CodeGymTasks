@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task15.task1509"\n\n男人或女人？
+
+1.更改 printName 方法，使其针对女人和男人运行。
+2.printName 方法应具有一个实现。
+
+
+Requirements:
+1.	Solution 类仅应实现一个 printName 方法。
+2.	printName 方法必须包含一个 Human 参数。
+3.	Man 类必须是 Human 类的后代。
+4.	Woman 类必须是 Human 类的后代。
+
+

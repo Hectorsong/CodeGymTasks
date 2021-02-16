@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task17.task1701"\n\n注意
+
+线程的异步执行。
+1.Note 类将由线程使用。
+2.创建一个 public static NoteThread 线程（Runnable 接口不会让类成为线程），其 run 方法执行下列方法 1000 次（索引 = 0-999）：
+2.1.使用 addNote 方法，添加名为 [getName() + "-注释" + index] 的注释。例如，对于 index = 4：
+"线程-0-注释 4"
+2.2.睡眠 1 毫秒。
+2.3.使用 removeNote 方法删除注释。
+2.4.将线程名称 (getName()) 作为参数传递给 removeNote
+
+
+Requirements:
+1.	Solution 类必须包含 public static NoteThread 类。
+2.	NoteThread 类必须是线程。
+3.	NoteThread 类的 run 方法必须包含循环。
+4.	NoteThread 类的 run 方法应调用 addNote 方法 1000 次，将 [getName() + &quot;-注释&quot; + index] 作为参数传递。
+5.	NoteThread 类的 run 方法应调用 Thread.sleep(1) 1000 次。
+6.	NoteThread 类的 run 方法应调用 removeNote 方法 1000 次，将 getName() 作为参数传递。
+
+

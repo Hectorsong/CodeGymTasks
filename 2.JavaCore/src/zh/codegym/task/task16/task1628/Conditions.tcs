@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task16.task1628"\n\n早起的鸟儿有虫吃
+
+1.弄明白程序的功能。
+1.1.每个线程应从控制台读取几行内容。使用现有的 static BufferedReader reader。
+1.2.使用 AtomicInteger readStringCount 计算所有线程从控制台读取多少行内容。
+2.实现 run 方法：
+2.1.只要线程未中断 (!IsInterrupted)，从控制台读取几行内容，然后将其添加到 List<String> result。
+2.2.使用 readStringCount 对从控制台读取的字符串计数。
+
+
+Requirements:
+1.	run 方法必须运行到线程终止 (!IsInterrupted) 为止。
+2.	run 方法不得创建其自己的 InputStreamReaders 或 BufferedReaders。
+3.	run 方法必须从读取器读取字词，然后将其添加到 result 列表。
+4.	读取每个字符串后，run 方法必须对 readStringCount 加 1。
+5.	程序应显示每个线程读取的数据。
+
+

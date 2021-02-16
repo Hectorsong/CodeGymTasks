@@ -1,0 +1,28 @@
+taskKey="zh.codegym.task.task16.task1623"\n\n以递归方式创建线程
+
+1.更改 GenerateThread 类，使其成为线程。
+2.创建 GenerateThread 构造方法，此方法必须：
+2.1.调用超类的构造方法，以 String 方式传递创建的线程号。使用 createdThreadCount。
+2.2.启动当前线程。
+2.3.线程号必须从 1 开始。
+3.重写 toString 方法：在 GenerateThread 内部，使用 Alt+Insert -> Override Methods。开始键入“toString”。
+3.1.toString 方法必须返回当前线程号和“已创建”一词。使用 getName()。
+示例：
+8 已创建
+4.如果创建的线程数小于 Solution.count，则 run 方法必须：
+4.1.创建一个新 GenerateThread。
+4.2.显示项目 4.1 中创建的线程。
+5.最后，15 行应输出到控制台。
+
+
+Requirements:
+1.	GenerateThread 类应继承 Thread 类。
+2.	GenerateThread 类必须包含 public 无参数构造方法。
+3.	GenerateThread 类构造方法应递增 createdThreadCount 并将其作为字符串传递给超类的构造方法。
+4.	GenerateThread 类构造方法必须启动线程。
+5.	GenerateThread 类的 toString 方法必须返回线程名称和&ldquo;已创建&rdquo;一词。示例：&ldquo;8 已创建&rdquo;。
+6.	如果创建的线程数小于 Solution.count，则 run 方法必须创建新的 GenerateThread。
+7.	如果创建的线程数小于 Solution.count，则 run 方法必须显示创建的线程。
+8.	程序的输出必须与任务条件匹配并指示已创建所有 15 个线程。
+
+

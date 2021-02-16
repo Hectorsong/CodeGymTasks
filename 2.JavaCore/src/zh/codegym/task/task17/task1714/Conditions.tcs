@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task17.task1714"\n\nComparable
+
+在 Beach 类中实现 Comparable<Beach> 接口。Beaches 将由 threads 使用，因此你需要确保所有的方法都是 synchronized。
+实现 compareTo 方法，当两个海滩 (beach) 在比较时，如果第一个海滩较好，该方法返回正数，
+如果第二个海滩较好，该方法返回负数。数字的大小表示海滩有多好。
+
+
+Requirements:
+1.	Beach 类必须具有三个字段：String name、float distance、int quality。
+2.	Beach 类应实现 Comparable&lt;Beach&gt; 接口。
+3.	Beach 类的 compareTo 方法应至少需要有海滩 quality 和 distance。
+4.	除 main 方法外，所有 Beach 类的方法都必须为 synchronized。
+
+

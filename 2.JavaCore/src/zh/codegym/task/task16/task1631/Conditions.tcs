@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task16.task1631"\n\n工厂方法模式
+
+1.仔细看看你所拥有的类。
+2.在 common 包的不同文件中，创建 JpgReader、PngReader 和 BmpReader 类，这些类实现 ImageReader 接口。
+3.在 main 包的单独文件中，创建包含一个方法的 ImageReaderFactory 类。
+3.1.想想它应叫什么？
+3.2.想想该方法应具有哪些修饰符。
+4.该方法应：
+4.1.对于 ImageTypes 中的每个值，返回相应的 Reader。例如，对于 ImageTypes.JPG，返回 JpgReader；
+4.2.如果传递了无效参数，则抛出异常：
+IllegalArgumentException("未知图像类型")。
+
+
+Requirements:
+1.	在 common 包中创建 JpgReader 类。该类必须实现 ImageReader 接口。
+2.	在 common 包中创建 PngReader 类。该类必须实现 ImageReader 接口。
+3.	在 common 包中创建 BmpReader 类。该类必须实现 ImageReader 接口。
+4.	创建名为 ImageReaderFactory 的 public 类。
+5.	将带 ImageTypes 参数的 public static 方法 getImageReader 添加到 ImageReaderFactory 类。
+6.	getImageReader 方法必须创建并返回合适的 Reader。
+7.	如果传递了无效参数，getImageReader 方法必须抛出 IllegalArgumentException。
+
+

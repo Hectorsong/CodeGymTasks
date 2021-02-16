@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task15.task1519"\n\n不同类型的不同方法
+
+1.从控制台读取数据，直到输入“exit”为止。
+2.对于每个值（除了“exit”），调用 print 方法。如果值：
+2.1. 包含句点（“.”），则调用 Double 的 print 方法；
+2.2. 大于零但小于 128，则调用 short 的 print方法；
+2.3. 小于等于零或大于等于 128，则调用 Integer 的 print 方法；
+2.4. 否则，调用 String 的 print 方法。
+
+
+Requirements:
+1.	程序必须从键盘读取数据。
+2.	输入&ldquo;exit&rdquo;后，程序应停止从键盘读取数据。
+3.	如果输入的字符串包含句点（&ldquo;.&rdquo;）并且可以正确转换为 Double，则应调用 print(Double value) 方法。
+4.	如果输入的字符串可正确转换为 short，并且最终的数字大于 0 但小于 128，则应调用 print(short value) 方法。
+5.	如果输入的字符串可正确转换为 Integer，并且最终的数字小于等于 0 或大于等于 128，则应调用 print(Integer value) 方法。
+6.	在所有其他情况下，应调用 print(String value) 方法。
+
+

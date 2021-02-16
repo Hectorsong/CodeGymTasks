@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task15.task1510"\n\n告别所有不必要的事物
+
+在 main 方法中，删除 add 方法未针对其实现的多余行。
+
+
+Requirements:
+1.	Solution 类中必须实现了三个 add() 方法。
+2.	你要删除 main() 方法中的多余行。
+3.	Solution 类的所有方法必须为 static。
+4.	Solution 类的所有方法必须为public。
+
+

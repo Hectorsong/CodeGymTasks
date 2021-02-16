@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task15.task1518"\n\nStatic 修饰符和小猫
+
+1.在 Solution 类中，创建含 public String 字段 name 的 Cat 类。
+2.在 static 块中，创建 Cat 对象并将其赋给变量 cat（别忘记初始化字段 name）。
+3.在 Cat 类中，切勿创建含参数的构造方法。
+4.在 static 块中，在屏幕上显示所创建的猫的名字。
+
+
+Requirements:
+1.	Cat 类必须在 Solution 类内部，并且必须是 public 和 static。
+2.	Cat 类必须包含 public String 字段 name。
+3.	变量 cat 必须在 Solution 类的 static 块中初始化。
+4.	在 static 块中，所创建的猫的名字应在屏幕上显示。
+5.	Cat 类不得包含带参数的构造方法。
+
+

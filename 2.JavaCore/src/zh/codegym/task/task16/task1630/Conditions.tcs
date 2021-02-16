@@ -1,0 +1,25 @@
+taskKey="zh.codegym.task.task16.task1630"\n\n顺序文件输出
+
+1.弄明白程序的功能。
+2.在 static 块中，读取 2 个文件名：firstFileName 和 secondFileName。
+3.在 Solution 类的内部，创建 public static ReadFileThread 类，该类实现 ReadFileInterface 接口（想想哪个更适合：Thread 或 Runnable)。
+3.1.setFileName 方法必须设置将读取其内容的文件名。
+3.2.getFileContents 方法必须返回文件的内容。
+3.3.在 run 方法中，读取文件的内容并关闭流。使用空格分隔文件的行。
+4.想想你需要在何处等待线程完成，以确保文件顺序显示。
+4.1.为此，添加对相应方法的调用。
+预期输出：
+[第一个文件的整个内容]
+[第二个文件的整个内容]
+
+
+Requirements:
+1.	Solution 类的 static 块应从控制台读取两个文件的名称，并将它们存储在变量firstFileName 和 secondFileName 中。
+2.	在 Solution 类中，声明 public static ReadFileThread 类。
+3.	ReadFileThread 类必须实现 ReadFileInterface 接口。
+4.	ReadFileThread 类必须继承相应的类。
+5.	ReadFileThread 类的 run 方法应读取 setFileName 方法设置的文件中的行。这个类的 getFileContents 方法必须返回文件内容。返回值是一个字符串，该字符串包含由空格分隔的文件中的行。
+6.	systemOutPrintln 方法必须调用所创建对象 f 上的 join 方法。
+7.	程序的输出应包含 2 行。每行包含一个文件的内容。
+
+

@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task14.task1410"\n\n品酒
+
+1.创建 abstract Drink 类，其实现了 public void taste() 方法，该方法显示“美酒”。
+2.创建 Wine 类，其继承 Drink 并实现 public String getCelebrationName() 方法，该方法返回“生日”。
+3.创建 BubblyWine 类，其继承 Wine 并实现 public String getCelebrationName() 方法，该方法返回“新年的”。
+4.编写 getDeliciousDrink、getWine 和 getBubblyWine 方法的实现。
+5.所有类都必须位于单独的文件中。
+
+
+Requirements:
+1.	abstract Drink 类必须位于单独的文件中。
+2.	Drink 类必须实现 public void taste() 方法，该方法显示&ldquo;美酒&rdquo;。
+3.	Wine 类必须位于单独的文件中，并且是 Drink 类的后代。
+4.	Wine 类必须实现 public String getCelebrationName() 方法，该方法返回&ldquo;生日&rdquo;。
+5.	BubblyWine 类必须位于单独的文件中，并且是 Wine 类的后代。
+6.	BubblyWine 类必须实现 public String getCelebrationName() 方法，该方法返回&ldquo;新年的&rdquo;。
+7.	Solution 类必须实现 getDeliciousDrink() 方法，该方法返回 Wine 对象。
+8.	Solution 类必须实现 getWine() 方法，该方法返回 Wine 对象。
+9.	Solution 类必须实现 getBubblyWine() 方法，该方法返回 BubblyWine 对象。
+
+

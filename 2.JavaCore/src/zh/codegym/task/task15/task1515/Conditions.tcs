@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task15.task1515"\n\nStatic 修饰符：第 2 部分
+
+1.在 static 块中，从控制台读取两个 int 变量 A 和 B。
+2.切勿忘记必须在 catch 块中处理的 IOException。
+3.使用 close() 方法关闭输入流。
+
+
+Requirements:
+1.	字段 A 必须是 public 和 static。
+2.	字段 B 必须是 public 和 static。
+3.	程序应从键盘读取 static 块中的数据。
+4.	程序必须使用从键盘输入的值初始化 static 块中的字段 A 和 B。
+5.	程序应显示从键盘输入的最小值。
+
+

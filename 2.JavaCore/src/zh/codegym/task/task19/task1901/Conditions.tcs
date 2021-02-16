@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task19.task1901"\n\nTableAdapter
+
+编辑 TableAdapter 类，让它将 ATable 接口适配为 BTable 接口。
+getHeaderText 方法应返回“[用户名] ：表名”。
+例如，“[Amigo] ：DashboardTable”。
+
+
+Requirements:
+1.	Solution 类必须包含 public static ATable 接口。
+2.	Solution 类必须包含 public static BTable 接口。
+3.	Solution 类必须包含 public static TableAdapter 方法。
+4.	TableAdapter 类必须实现 BTable 接口。
+5.	TableAdapter 类必须包含名为 ATable 的 private ATable 字段。
+6.	TableAdapter 类必须包含带 ATable 参数的构造方法。
+7.	TableAdapter 类必须根据任务条件重写 getHeaderText 方法。
+
+

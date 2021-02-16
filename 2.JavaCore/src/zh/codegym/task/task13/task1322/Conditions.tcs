@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task13.task1322"\n\nSimpleObject 接口
+
+1.创建 StringObject 类。
+2.使用 String 参数让 StringObject 类实现 SimpleObject 接口。
+3.该程序必须进行编译。
+
+
+Requirements:
+1.	StringObject 类必须实现 SimpleObject 接口。
+2.	必须使用 String 参数实现 StringObject 类中的 SimpleObject 接口。
+3.	StringObject 类必须实现 SimpleObject 接口的 getInstance 方法。
+4.	Solution 类必须包含 StringObject 类。
+5.	StringObject 类必须为 static。
+
+

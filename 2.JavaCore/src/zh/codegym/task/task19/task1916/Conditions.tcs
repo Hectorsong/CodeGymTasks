@@ -1,0 +1,42 @@
+taskKey="zh.codegym.task.task19.task1916"\n\n跟踪更改
+
+从控制台读取 2 个文件名：file1 和 file2。
+这两个文件都包含文本，但 file2 是 file1 的更新版本。部分行仍然相同。
+通过将这些行写入 lines 列表，你需要创建这些行的合并版本。
+ADDED 和 REMOVED 标签不能连续使用，必须始终由 SAME 标签分隔。
+为了清楚起见，示例包括空行。
+原始文件和更新文件都不包括空行！
+示例 1：
+原始   更新    合并
+file1：    file2：    结果：(lines)
+line1      line1      SAME line1
+line2                 REMOVED line2
+line3      line3      SAME line3
+line4                 REMOVED line4
+line5      line5      SAME line5
+           line0      ADDED line0
+line1      line1      SAME line1
+line2                 REMOVED line2
+line3      line3      SAME line3
+           line4      ADDED line4
+line5      line5      SAME line5
+line0                 REMOVED line0
+示例 2：
+原始   更新    合并
+file1:     file2:     结果：(lines)
+line1      line1      SAME line1
+           line0      ADDED line0
+在示例中，空行意味着行不在指定的文件中。
+
+
+Requirements:
+1.	Solution 类必须包含 LineItem 类。
+2.	Solution 类必须包含名为 Type 的 enum。
+3.	Solution 类必须包含名为 lines 的 public static List&lt;LineItem&gt; 字段，该字段立即初始化。
+4.	在 main(String[] args) 方法中，程序必须从控制台读取文件名（使用 BufferedReader）。
+5.	在 main(String[] args) 方法中，在使用用于从控制台读取输入的 BufferedReader 后，必须将其关闭。
+6.	程序必须读取第一个文件和第二个文件的内容（使用 FileReader）。
+7.	必须关闭文件输入流 (FileReader)。
+8.	lines 列表应包含这些文件中行的合并版本。每行应以标签 ADDED、REMOVED 或 SAME 开头，具体取决于采取的操作。
+
+

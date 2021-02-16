@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task16.task1621"\n\nThread.currentThread 始终返回当前线程
+
+1.在 printMsg 方法中，将当前线程赋值给变量 t。
+2.在 printMsg 方法中，在所有操作后添加 1 毫秒的延时。
+
+
+Requirements:
+1.	printMsg 方法必须使用 Thread.currentThread 获取当前线程。
+2.	printMsg 方法应将线程置于睡眠状态 1 毫秒。
+3.	printMsg 方法应调用当前线程上的 getName 方法。
+4.	main 方法应 5 次调用 ThreadNamePrinter 对象上的 printMsg 方法。
+5.	run 方法必须 5 次调用 printMsg 方法。
+6.	必须 10 次调用 ThreadNamePrinter 类的 printMsg 方法。
+
+

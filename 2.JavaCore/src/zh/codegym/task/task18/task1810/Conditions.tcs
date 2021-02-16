@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task18.task1810"\n\nDownloadException
+
+1 从控制台读取文件名。
+2 如果文件小于 1000 字节，，则：
+2.1 关闭文件流。
+2.2.抛出 DownloadException。
+
+
+Requirements:
+1.	程序应从控制台读取文件名。
+2.	使用 FileInputStream 从文件读取。
+3.	程序应工作到输入的文件小于 1000 字节为止。
+4.	程序应使用 DownloadException 终止。
+5.	必须关闭 FileInputStream。
+
+

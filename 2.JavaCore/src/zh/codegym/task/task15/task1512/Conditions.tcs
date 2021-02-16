@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task15.task1512"\n\n最简单的代码：第 2 部分
+
+让我们看下编译过程中可能会添加，但该程序中已存在的构造方法相关内容。
+简化代码。删除自动创建和添加的所有构造方法以及超类构造方法的调用。
+另注：NakedCat、NormalCat 和 SiamCat 类存在 is-a（继承）关系：http://en.wikipedia.org/wiki/Is-a
+
+
+Requirements:
+1.	NormalCat 类必须是 NakedCat 类的后代。
+2.	SiamCat 类必须是 NormalCat 类的后代。
+3.	简化 NakedCat 类中的代码。
+4.	简化 NormalCat 类中的代码。
+
+

@@ -1,0 +1,33 @@
+taskKey="zh.codegym.task.task19.task1918"\n\n标记简介
+
+从控制台读取包含 HTML 的文件的名称。
+示例：
+Info about Leela <span xml:lang="en" lang="en"><b><span>Leela Turanga
+</span></b></span><span>Super</span><span>girl</span>
+main 方法的第一个参数是标记名。例如，“span”。
+显示与指定标记匹配的所有标记。
+顺序应与文件中的顺序一致，每个标记位于一个新行上。
+空格的数量、换行符 (n) 或回车 (r) 都不会影响结果。
+文件没有 CDATA 标记。每个开始标记都有一个单独的结束标记，没有自结束标记。
+标记可以包含嵌套标记。
+示例输出：
+<span xml:lang="en" lang="en"><b><span>Leela Turanga</span></b></span>
+<span>Leela Turanga</span>
+<span>Super</span>
+<span>girl</span>
+标记模板：
+<tag>text1</tag>
+<tag text2>text1</tag>
+<tag
+text2>text1</tag>
+text1 和 text2 可以为空
+
+
+Requirements:
+1.	程序必须从控制台读取文件名（使用 BufferedReader）。
+2.	在使用用于从控制台读取输入的 BufferedReader 后必须将其关闭。
+3.	程序必须读取文件内容（使用 FileReader）。
+4.	必须关闭文件输入流 (FileReader)。
+5.	程序必须将与传递给 main 方法的参数指定的标记匹配的所有标记写入控制台。
+
+

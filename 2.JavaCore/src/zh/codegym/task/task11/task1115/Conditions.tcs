@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task11.task1115"\n\n从学生到熟练工
+
+编辑以下四个类：Schoolboy、Student、Employee 和 Slave。
+让 Student 继承 Schoolboy，Employee 继承 Student 以及 Slave 继承 Employee。
+
+
+Requirements:
+1.	Solution 类必须包含 public Schoolboy 类。
+2.	Solution 类必须包含 public Student 类。
+3.	Solution 类必须包含 public Employee 类。
+4.	Solution 类必须包含 public Slave 类。
+5.	Student 类必须继承 Schoolboy 类。
+6.	Employee 类必须继承 Student 类。
+7.	Slave 类必须继承 Employee 类。
+
+

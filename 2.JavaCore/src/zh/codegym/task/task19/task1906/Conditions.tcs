@@ -1,0 +1,20 @@
+taskKey="zh.codegym.task.task19.task1906"\n\n偶数字符
+
+从控制台读取 2 个文件名。
+将第一个文件中具有偶数序号（序号以 1 开头）的所有字符输出到第二个文件。
+第一个文件示例：
+text in file
+输出到第二个文件：
+eti ie
+关闭 IO 流。
+
+
+Requirements:
+1.	程序应从控制台读取文件名（使用 BufferedReader）。
+2.	在使用用于从控制台读取输入的 BufferedReader 后必须将其关闭。
+3.	程序必须读取第一个文件的内容（使用带 String 参数的 FileReader 构造方法）。
+4.	必须关闭文件输入流 (FileReader)。
+5.	程序必须将第一个文件中具有偶数序号的所有字符写入第二个文件（使用 FileWriter）。
+6.	必须关闭文件输出流 (FileWriter)。
+
+

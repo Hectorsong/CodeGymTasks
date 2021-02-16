@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task16.task1632"\n\n线团
+
+1.创建 5 个与 Thread 不同线程：
+1.1.线程 1 必须无限运行；
+1.2.线程 2 应在 InterruptedException 发生时显示“InterruptedException”；
+1.3.线程 3 应每半秒显示一次“加油”。
+1.4.线程 4 必须实现 Message 接口。当调用 showWarning 方法时，线程应停止；
+1.5.线程 5 应从控制台读取数字，直到“N”输入为止。然后它应显示输入数字的总和。
+2.在 static 块中，将你的线程以指定的顺序添加到 List<Thread> threads。
+3.线程不应自动启动。
+提示： 线程 4 可以使用 isAlive() 检查。
+
+
+Requirements:
+1.	Solution 类的 static 块必须创建 5 个线程并将其添加到 threads 列表。
+2.	threads 列表中的线程不应自动启动。
+3.	threads 列表中的线程 1 必须无限运行。
+4.	threads 列表中的线程 2 应在 InterruptedException 发生时显示&ldquo;InterruptedException&rdquo;。
+5.	threads 列表中的线程 3 应每半秒显示一次&ldquo;加油&rdquo;。
+6.	threads 列表中的线程 4 必须实现 Message 接口。当调用 showWarning 方法时，线程应停止。
+7.	threads 列表中的线程 5 应从控制台读取数字，直到&ldquo;N&rdquo;输入为止。然后它应显示输入数字的总和。
+
+

@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task16.task1633"\n\n调试一切事物
+
+弄明白程序的功能。
+查看 UncaughtExceptionHandler - 很重要。
+再仔细看看该程序。
+弄明白 OurUncaughtExceptionHandler 为何不工作（使用调试程序）。
+修复错误，即一切都应正常工作。:)
+预期结果无特定顺序：
+线程 1：我的异常消息
+线程 2：我的异常消息
+
+
+Requirements:
+1.	main 方法应创建带下列参数的线程：commonThread 和 &quot;线程 1&quot;。
+2.	main 方法应创建带下列参数的线程：commonThread 和 &quot;线程 2&quot;。
+3.	main 方法必须启动两个线程（Thread 对象）。
+4.	main 方法必须中断两个线程（Thread 对象）。
+5.	程序必须使用 OurUncaughtExceptionHandler 的 uncaughtException 方法显示 2 个消息。
+6.	不要显式调用 OurUncaughtExceptionHandler 的 uncaughtException 方法。
+7.	程序的输出应包含下列几行：&ldquo;线程 1：我的异常消息&rdquo;和&ldquo;线程 2：我的异常消息&rdquo;。
+
+
