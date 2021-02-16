@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task05.task0512"\n\n创建 Circle 类
+
+创建包含三个初始化器的 Circle 类：
+- centerX, centerY, radius
+- centerX, centerY, radius, width
+- centerX, centerY, radius, width, color
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	Circle 类必须包含 int 变量 centerX、centerY、radius、width 和 color。
+3.	该类必须包含将 centerX、centerY 和 radius 作为参数并初始化相应实例变量的 initialize 方法。
+4.	该类必须包含将 centerX、centerY、radius 和 width 作为参数并初始化相应实例变量的 initialize 方法。
+5.	该类必须包含将 centerX、centerY、radius、width 和 color 作为参数并初始化相应实例变量的 initialize 方法。
+
+

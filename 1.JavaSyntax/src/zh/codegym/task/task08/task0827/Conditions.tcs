@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task08.task0827"\n\n处理日期
+
+1.实现 isDateOdd(String date) 方法，如果自年初以来的天数为奇数，该方法将返回 true，否则返回 false
+2.String date 以如下形式传递：FEBRUARY 1 2013
+别忘了将该年度的第一天考虑在内。
+示例：
+JANUARY 1 2000 = true
+JANUARY 2 2020 = false
+
+
+Requirements:
+1.	程序应在屏幕上显示文本。
+2.	Solution 类必须包含两个方法。
+3.	如果自年初以来的天数为奇数，isDateOdd() 方法必须返回 true，否则必须返回 false。
+4.	main() 方法应调用 isDateOdd() 方法。
+
+

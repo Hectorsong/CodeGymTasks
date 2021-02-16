@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task05.task0504"\n\n三个“火枪手”
+
+在 main 方法中，创建三个 Cat 对象并填充数据。
+使用第一个任务中的 Cat 类。你无需创建 Cat 类。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	你需要创建三个 Cat 对象。
+3.	不要更改 Cat 类。
+4.	程序不应该在屏幕上显示数据。
+
+

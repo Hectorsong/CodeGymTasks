@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task08.task0814"\n\n大于 10？你不适合我们
+
+创建一个数字集 (Set<Integer>) 并向其中添加 20 个不同的数字。
+从集中删除所有大于 10 的数字。
+
+
+Requirements:
+1.	程序不应该在屏幕上显示文本。
+2.	程序不得从键盘读取值。
+3.	Solution 类只能包含三个方法。
+4.	createSet() 方法必须创建并返回包含 20 个不同数字的 HashSet。
+5.	removeAllNumbersGreaterThan10() 方法必须从集中删除所有大于 10 的数字。
+
+

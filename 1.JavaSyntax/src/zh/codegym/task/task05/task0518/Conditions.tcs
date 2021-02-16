@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task05.task0518"\n\n犬只注册
+
+创建包含三个构造方法的 Dog 类：
+- name
+- name, height
+- name, height, color
+
+
+Requirements:
+1.	Dog 类必须包含 String 变量 name。
+2.	Dog 类必须包含 int 变量 height。
+3.	Dog 类必须包含 String 变量 color。
+4.	该类必须包含将 name 作为参数并初始化相应实例变量的构造方法。
+5.	该类必须包含将 name 和 height 作为参数并初始化相应实例变量的构造方法。
+6.	该类必须包含将 name、height 和 color 作为参数并初始化相应实例变量的构造方法。
+
+

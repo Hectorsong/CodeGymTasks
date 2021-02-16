@@ -1,0 +1,71 @@
+package zh.codegym.task.task05.task0510;
+
+/* 初始化猫
+创建包含五个初始化器的 Cat 类。
+- name,
+- name, weight, age
+- name、age（标准 weight）
+- weight, color（未知的 name、address 和 age，即流浪猫）
+- weight, color, address（别人的宠物）
+初始化器的工作是使对象有效。例如，如果 weight 未知，则需要指定某个平均 weight。
+一只猫不可能没有 weight。age 和 color 也是如此。但是，name 则可能有，也可能没有（即，name 可能为 null）。address 也是如此（它可能为 null）。
+Requirements:
+1. 程序不得从键盘读取数据。
+2. Cat 类必须包含 String 变量 name。
+3. Cat 类必须包含 int 变量 age。
+4. Cat 类必须包含 int 变量 weight。
+5. Cat 类必须包含 String 变量 address。
+6. Cat 类必须包含 String 变量 color。
+7. 该类必须包含 initialize 方法，该方法将 name 作为参数，但初始化除 address 之外的所有变量。
+8. 该类必须包含 initialize 方法，该方法将 name、weight 和 age 作为参数，但初始化除 address 之外的所有变量。
+9. 该类必须包含 initialize 方法，该方法将 name 和 age 作为参数，并初始化除 address 之外的所有变量。
+10. 该类必须包含 initialize 方法，该方法将 weight 和 color 作为参数，并初始化除 name 和 address 之外的所有变量。
+11. 该类必须包含 initialize 方法，该方法将 weight、color 和 address 作为参数，但初始化除 name 之外的所有变量。
+*/
+
+public class Cat {
+    //在此编写你的代码
+    private String name;
+    private int age;
+    private int weight;
+    private String address = null;
+    private String color;
+
+    public void initialize(String name)
+    {
+        this.name = name;
+        this.age = 1;
+        this.weight = 2;
+        this.color = "yellow";
+    }
+    public void initialize(String name, int weight, int age)
+    {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.color = "yellow";
+    }
+    public void initialize(String name, int age)
+    {
+        this.name = name;
+        this.age = age;
+        this.weight = 1;
+        this.color = "yellow";
+    }
+    public void initialize(int weight, String color)
+    {
+        this.age = 1;
+        this.weight = weight;
+        this.color = color;
+    }
+    public void initialize(int weight, String color, String address)
+    {
+        this.age = 1;
+        this.weight = weight;
+        this.color = color;
+        this.address = address;
+    }
+    public static void main(String[] args) {
+
+    }
+}

@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task08.task0804"\n\n显示键的列表
+
+有一个 HashMap<String, String>。已向其中添加了 10 个不同的字符串。
+在屏幕上显示键的列表，每行显示一个元素。
+
+
+Requirements:
+1.	程序必须创建包含 (String, String) 元素的 HashMap 变量。必须立即初始化该变量。
+2.	程序不得从键盘读取值。
+3.	程序应根据条件将 10 个不同的字符串添加到集合中。
+4.	printKeys() 方法应显示集合中的键，每行显示一个元素。
+
+

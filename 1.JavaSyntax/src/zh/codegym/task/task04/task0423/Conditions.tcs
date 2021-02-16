@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task04.task0423"\n\n保安政策
+
+使用键盘输入名字和年龄。如果年龄超过 20，则显示“18 岁就够大了”。
+
+
+Requirements:
+1.	程序应从键盘读取几行内容。
+2.	程序应使用 System.out.println() 或 System.out.print()。
+3.	如果年龄大于 20，则显示&ldquo;18 岁就够大了&rdquo;，此外不显示其他任何内容。
+4.	如果年龄小于或等于 20，则不显示任何内容。
+
+

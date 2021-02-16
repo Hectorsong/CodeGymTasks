@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task03.task0311"\n\n输出字符串
+
+实现 public static void writeToConsole(String s) 方法，将“输出：”添加到字符串开头并显示更改后的字符串。
+
+“你好，世界！”的示例输出：
+输出：你好，世界！
+
+
+Requirements:
+1.	添加带 String 参数的 writeToConsole 方法。
+2.	writeToConsole 方法必须为 void。
+3.	writeToConsole 方法必须为 static。
+4.	writeToConsole 方法必须为 public。
+5.	writeToConsole 方法应将&ldquo;输出：&rdquo;添加到字符串开头并显示结果。
+6.	程序应显示&ldquo;输出：你好，世界！&rdquo;。
+
+

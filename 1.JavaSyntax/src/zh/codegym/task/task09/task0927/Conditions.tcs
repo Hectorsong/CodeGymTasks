@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task09.task0927"\n\n十只猫
+
+有一个含 String 变量 name 的 Cat 类。
+创建一个 Map<String, Cat> 并添加 10 只猫，用（name，Cat）对表示。
+从 Map 中获取所有猫的集，并显示在屏幕上。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	createMap 方法必须创建一个新的 HashMap&lt;String, Cat&gt; 对象。
+3.	createMap 方法必须在映射中添加 10 只猫，用（名称，猫）对表示。
+4.	createMap 方法必须返回创建的映射。
+5.	convertMapToSet 方法必须创建并返回从传递的映射中检索到的猫的集。
+6.	程序应显示集中的所有猫。
+
+

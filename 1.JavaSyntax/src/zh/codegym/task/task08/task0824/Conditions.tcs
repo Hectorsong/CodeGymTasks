@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task08.task0824"\n\n构建家庭
+
+1.创建包含 String name、boolean sex、int age 和 ArrayList<Human> children 字段的 Human 类。
+2.创建并填充对象，以便我们最终得到：两个祖父、两个祖母、一个父亲、一个母亲和三个孩子。
+3.显示所有 Human 对象（提示：使用 Human 类的 toString() 方法）。
+
+
+Requirements:
+1.	程序应在屏幕上显示文本。
+2.	Human 类必须包含四个字段。
+3.	Human 类必须包含一个方法。
+4.	Solution 类必须包含一个方法。
+5.	程序应创建对象并用数据填充它们，以得到两个祖父、两个祖母、一个父亲、一个母亲和三个孩子。然后，程序应在屏幕上显示所有 Human 对象。
+
+

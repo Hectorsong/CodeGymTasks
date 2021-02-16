@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task04.task0403"\n\n猫的名字叫什么？
+
+使用 setName 方法帮猫起一个名字。
+
+
+Requirements:
+1.	Cat 类中只能包含一个名为 name 的变量。
+2.	变量 name 必须为 String，并且包含一个 private 访问修饰符。
+3.	Cat 类只能包含两个方法：setName 和 main。
+4.	Cat 类的 setName 方法必须将 private String 变量 name 的值设置为等于传递的 String 参数 name。
+
+

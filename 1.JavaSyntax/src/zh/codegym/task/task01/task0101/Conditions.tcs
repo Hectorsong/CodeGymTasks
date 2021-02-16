@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task01.task0101"\n\n我认为做一名程序员很酷
+
+编写一个程序，其显示内容为："I think being a programmer is cool".
+
+示例输出：
+I think being a programmer is cool
+
+
+Requirements:
+1.	该程序应输出文本。
+2.	该文本应以&ldquo;I think&rdquo;开头。
+3.	该文本应以&ldquo;is cool&rdquo;结尾。
+4.	该文本应包含 34 个字。
+5.	该文本应由一行组成。
+6.	所显示的文本必须与任务条件匹配。
+
+

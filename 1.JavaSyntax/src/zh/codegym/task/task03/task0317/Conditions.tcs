@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task03.task0317"\n\n武士道
+
+显示以下语标：日本語
+
+
+Requirements:
+1.	该程序应输出文本。
+2.	文本应以&ldquo;日&rdquo;开头。
+3.	文本应以&ldquo;語&rdquo;结束。
+4.	文本应由 3 个符号组成。
+5.	所显示的文本必须与任务条件匹配。
+
+

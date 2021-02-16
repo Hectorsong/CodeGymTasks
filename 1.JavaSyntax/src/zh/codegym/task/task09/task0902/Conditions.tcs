@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task09.task0902"\n\n重访堆栈跟踪
+
+写出相互调用的五种方法。
+每个方法都应返回调用它的方法的名称。使用堆栈跟踪获取此信息。
+
+
+Requirements:
+1.	这一类应该有 5 个方法（除了 main 方法之外）。
+2.	每个方法都应调用下一个方法：main 方法调用 method1，method1 调用 method2，依此类推。
+3.	每个方法必须返回调用它的方法的名称。
+4.	要获取调用方法的名称，请使用 getMethodName 方法。
+
+

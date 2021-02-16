@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task03.task0307"\n\n你好，《星际争霸》！
+
+创建 5 个 Zerg 单位、3 个 Protoss 单位和 4 个 Terran 单位。
+为它们全部赋予唯一的名字。
+
+
+Requirements:
+1.	不要更改 Zerg、Protoss 和 Terran 类。
+2.	创建 5 个 Zerg 对象并为每个对象命名。
+3.	创建 3 个 Protoss 对象并为每个对象命名。
+4.	创建 4 个 Terran 对象并为每个对象命名。
+
+

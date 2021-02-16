@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task01.task0116"\n\n让我们来更改代码
+
+更改程序，使该变量 name 取值为“阿米戈”。
+
+
+Requirements:
+1.	该变量 name 必须在声明后立即赋值。
+2.	必须声明两个变量。
+3.	变量 text 的值不能更改。
+4.	你不能更改屏幕输出命令。
+5.	该程序应显示&ldquo;你好，阿米戈！&rdquo;。
+
+

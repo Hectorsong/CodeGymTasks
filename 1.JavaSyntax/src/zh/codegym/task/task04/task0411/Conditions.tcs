@@ -1,0 +1,21 @@
+taskKey="zh.codegym.task.task04.task0411"\n\n泰若星球上的季节
+
+编写 checkSeason 方法。基于代表月份的数字，该方法应确定并显示季节（冬季、春季、夏季、秋季）。
+
+例如，对于数字 2：
+冬季
+
+例如，对于数字 5：
+春季
+
+提示：数字 12、1 和 2 是冬季的月份，而 3、4 和 5 是春季的月份，等等。
+
+
+Requirements:
+1.	该程序应在屏幕上显示文本。
+2.	main 方法不应调用 System.out.println 或 System.out.print。
+3.	main 方法必须调用 checkSeason 方法。
+4.	checkSeason 方法必须为 static void，并且只有一个 int 参数。
+5.	checkSeason 方法应根据任务条件在屏幕上显示文本。
+
+

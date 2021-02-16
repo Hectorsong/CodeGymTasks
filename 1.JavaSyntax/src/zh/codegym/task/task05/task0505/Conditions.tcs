@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task05.task0505"\n\n猫类大屠杀
+
+使用 Cat 类创建三只猫。
+在猫之间举行三组两两对战。
+你无需创建 Cat 类。对于战斗，请使用 boolean fight (Cat anotherCat) 方法。
+在屏幕上显示每场战斗的结果，每行显示一个结果。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	你需要创建三个 Cat 对象。
+3.	你需要进行三场战斗。
+4.	程序应显示每场战斗的结果，每行显示一个结果。
+
+

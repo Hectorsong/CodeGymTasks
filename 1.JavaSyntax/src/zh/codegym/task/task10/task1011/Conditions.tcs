@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task10.task1011"\n\n高薪
+
+按如下模式显示“我不想学习 Java。我要高薪”15 次。
+
+模式：
+我不想学习 Java。我要高薪
+不想学习 Java。我要高薪
+想学习 Java。我要高薪
+学习 Java。我要高薪
+习 Java。我要高薪
+Java。我要高薪
+…
+薪
+
+
+Requirements:
+1.	程序应在屏幕上显示文本。
+2.	程序应显示 15 行。
+3.	程序必须使用 for 循环或 while 循环。
+4.	输出应与条件中的示例匹配。
+
+

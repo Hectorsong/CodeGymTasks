@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task07.task0701"\n\n数组中的最大值
+
+1.在 initializeArray() 方法中：
+1.1.创建包含 20 个数字的数组
+1.2.从控制台读取 20 个数字并将其放入数组中
+2.max(int[] array) 方法必须找出数组元素中的最大值
+
+
+Requirements:
+1.	initializeArray 方法必须创建包含 20 个整数的数组。
+2.	initializeArray 方法必须读取 20 个数字并将其作为数组返回。
+3.	max 方法必须返回所传递数组中的最大元素。
+4.	不要更改 main 方法。
+
+

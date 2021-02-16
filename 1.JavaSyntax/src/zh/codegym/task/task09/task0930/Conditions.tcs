@@ -1,0 +1,35 @@
+taskKey="zh.codegym.task.task09.task0930"\n\n有关算法的任务
+
+任务：用户从键盘输入单词（和数字）列表。单词按升序显示，数字按降序显示。
+
+示例输入：
+Cherry
+1
+Bob
+3
+Apple
+22
+0
+Watermelon
+
+示例输出：
+Apple
+22
+Bob
+3
+Cherry
+1
+0
+Watermelon
+
+
+Requirements:
+1.	程序必须从键盘读取数据。
+2.	程序应在屏幕上显示数据。
+3.	显示的单词应按升序排列（使用提供的 isGreaterThan 方法）。
+4.	显示的数字必须按降序排列。
+5.	main 方法应使用 sort 方法。
+6.	sort() 方法应调用 isGreaterThan() 方法。
+7.	sort() 方法应调用 isNumber() 方法。
+
+

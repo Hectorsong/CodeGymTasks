@@ -1,0 +1,21 @@
+package zh.codegym.task.task06.task0601;
+
+/* Cat 的 finalize 方法
+在 Cat 类中，创建 protected void finalize() throws Throwable 方法。
+Requirements:
+1. Cat 类必须包含名为 finalize 的方法。
+2. finalize 方法不应返回任何内容 (void)。 =
+3. finalize 方法必须为 protected。
+4. finalize 方法可以抛出 Throwable 异常。在方法声明中指出这一点。
+*/
+
+public class Cat {
+    //在此编写你的代码
+    public static void main(String[] args) {
+
+    }
+
+    protected void finalize() throws Throwable{
+
+    }
+}

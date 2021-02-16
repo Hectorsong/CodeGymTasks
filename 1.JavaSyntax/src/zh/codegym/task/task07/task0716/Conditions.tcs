@@ -1,0 +1,28 @@
+taskKey="zh.codegym.task.task07.task0716"\n\nR 或 L
+
+1.创建单词列表并自行填充该列表。
+2.fix 方法应：
+2.1. 从列表中删除所有包含字母“r”的单词
+2.2. 复制所有包含字母“l”的单词。
+2.3. 如果某个单词同时包含“r”和“l”，则保持不变。
+2.4. 不要对其他单词执行任何操作。
+
+例如：
+rose
+lyre
+love
+
+输出：
+lyre
+love
+love
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	fix 方法应从列表中删除所有包含字母&ldquo;r&rdquo;的单词。有一个例外：同时包含&ldquo;r&rdquo;和&ldquo;l&rdquo;的单词应保持不变。
+3.	fix 方法必须复制包含字母&ldquo;l&rdquo;的单词（将此单词的另一个实例添加到列表中）。有一个例外：不要复制同时包含&ldquo;l&rdquo;和&ldquo;r&rdquo;的单词。
+4.	fix 方法不应对同时包含&ldquo;l&rdquo;和&ldquo;r&rdquo;的单词执行任何操作。
+5.	fix 方法不应对既不包含&ldquo;l&rdquo;也不包含&ldquo;r&rdquo;的单词执行任何操作。
+
+

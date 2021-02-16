@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task09.task0929"\n\n让代码发挥它的用武之地！
+
+任务：程序读取两个文件名。它将第一个文件复制到第二个文件名指定的位置。
+新任务：程序读取两个文件名。它将第一个文件复制到第二个文件名指定的位置。
+如果指定的文件（待复制）不存在，那么该程序应显示“文件不存在”并再次读取文件名，然后才读取目标文件名称。
+
+
+Requirements:
+1.	程序必须读取文件名。
+2.	main 方法必须处理 getInputStream 方法抛出的异常。如果发生异常，则应显示&ldquo;文件不存在&rdquo;。
+3.	程序必须将第一个文件的内容复制到第二个文件。
+4.	main 方法应调用 getInputStream 方法。
+5.	不要更改 getInputStream 方法。
+6.	main 方法应调用 getOutputStream 方法。
+7.	不要更改 getOutputStream 方法。
+
+

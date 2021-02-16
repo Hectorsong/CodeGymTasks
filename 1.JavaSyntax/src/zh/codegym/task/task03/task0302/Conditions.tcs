@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task03.task0302"\n\n立即显示
+
+添加 public static void printString(String s) 方法，并编写代码让其显示传递的字符串。
+
+
+Requirements:
+1.	添加带 String 参数的 printString 方法。
+2.	printString 方法必须为 void。
+3.	printString 方法必须为 static。
+4.	printString 方法必须为 public。
+5.	printString 方法必须显示传递的文本。
+6.	该程序应显示&ldquo;你好，阿米戈！&rdquo;。
+
+
